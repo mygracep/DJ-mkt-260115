@@ -60,6 +60,16 @@ SELECT
 FROM ig_tag_comments
 WHERE brand = "코드그라피";
 
+SELECT
+	COUNT(*) AS total_comments,
+    SUM(comment_text REGEXP "예[뻐|뽀|쁘]|이[쁘|뻐]") AS positive_count,
+    ROUND(
+		SUM(positive_count / total_comments * 100,
+        2
+    ) AS potitive_ratio
+FROM ig_tag_comments
+WHERE brand = "코드그라피";
+
 -- 이모지 포함 댓글 수
 SELECT COUNT(*) AS emoji_comments
 FROM ig_tag_comments
