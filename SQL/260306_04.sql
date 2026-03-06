@@ -1,0 +1,10 @@
+SET SQL_SAFE_UPDATES = 0;
+
+START TRANSACTION;
+
+UPDATE customer
+SET first_name = "DAVE";
+
+SELECT * FROM customer LIMIT 10;
+
+ROLLBACK;
