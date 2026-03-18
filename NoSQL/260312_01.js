@@ -4,6 +4,7 @@ show dbs
 // 특정 데이터베이스 선택.사용
 use datamkt
 use admin
+use nosql02
 
 // 쿼리문 실행
 // ctrl + enter | ctrl + shift + enter
@@ -45,6 +46,7 @@ db.test.isCapped()
 
 // 컬렉션 이름 변경
 db.log.renameCollection("test02")
+
 
 /* 
 String : 문자열 = "david"
@@ -192,6 +194,20 @@ db.users.find(
 db.users.find(
   {age: {$ne: 25, $ne: 45}}
 )
+
+db.users.find(
+  { age: { $nin: [25, 45] } }
+)
+
+db.users.find(
+  {
+    $and: [
+      { age: { $ne: 25 } },
+      { age: { $ne: 45 } }
+    ]
+  }
+)
+
 // 위 구문은 명확하게 따지면, 문법적으로 잘못된것, 하지만 오류 내지 않고, 마지막 조건값
 // 위 구문은 단일값 비교
 
@@ -223,6 +239,7 @@ db.users.find(
   {name: 1, age: 1, _id: 0}
 )
 
+db.users.find()
 
 
 
