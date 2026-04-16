@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MCP Prototype — Home 시각화</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #1a1816;
+      --muted: #6b6560;
+      --paper: #f7f4ef;
+      --accent: #8b2942;
+      --line: rgba(26, 24, 22, 0.12);
+      --radius: 12px;
+      --max: 1120px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Manrope", system-ui, sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.6;
+    }
+    .meta-banner {
+      font-size: 12px;
+      color: var(--muted);
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+      padding: 10px 20px;
+      text-align: center;
+    }
+    .meta-banner a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    .meta-banner a:hover { text-decoration: underline; }
+    header.site {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: rgba(247, 244, 239, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+    .site-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .logo {
+      font-family: "DM Serif Display", Georgia, serif;
+      font-size: 1.35rem;
+      letter-spacing: 0.02em;
+    }
+    nav { display: flex; gap: 28px; font-size: 14px; font-weight: 500; }
+    nav a { color: var(--ink); text-decoration: none; opacity: 0.85; }
+    nav a:hover { opacity: 1; color: var(--accent); }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 22px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn-primary { background: var(--ink); color: #fff; }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(26, 24, 22, 0.18);
+    }
+    .btn-ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+    .hero {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 56px 24px 72px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; padding-top: 40px; }
+      nav { display: none; }
+    }
+    .hero-copy h1 {
+      font-family: "DM Serif Display", Georgia, serif;
+      font-size: clamp(2.25rem, 4vw, 3.25rem);
+      font-weight: 400;
+      line-height: 1.15;
+      margin: 0 0 20px;
+    }
+    .hero-copy p.lead { color: var(--muted); font-size: 1.05rem; max-width: 40ch; margin: 0 0 28px; }
+    .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; }
+    .hero-visual {
+      aspect-ratio: 4 / 5;
+      border-radius: var(--radius);
+      background: linear-gradient(145deg, #e8dfd6 0%, #d4c4b8 45%, #c4a99a 100%);
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(26, 24, 22, 0.12);
+    }
+    .hero-visual::after {
+      content: "히어로 이미지 + 헤드라인 + CTA";
+      position: absolute;
+      bottom: 16px;
+      left: 16px;
+      right: 16px;
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.95);
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    }
+    section.block { max-width: var(--max); margin: 0 auto; padding: 64px 24px; }
+    section.block.alt {
+      background: #fff;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .section-head h2 {
+      font-family: "DM Serif Display", Georgia, serif;
+      font-size: 1.75rem;
+      font-weight: 400;
+      margin: 0;
+    }
+    .section-head span { font-size: 13px; color: var(--muted); }
+    .brand-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 40px;
+      align-items: start;
+    }
+    @media (max-width: 800px) { .brand-grid { grid-template-columns: 1fr; } }
+    .brand-grid p { color: var(--muted); margin: 0 0 16px; }
+    .lookbook { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    @media (max-width: 700px) { .lookbook { grid-template-columns: 1fr 1fr; } }
+    .lookbook figure {
+      margin: 0;
+      border-radius: var(--radius);
+      overflow: hidden;
+      aspect-ratio: 3 / 4;
+      background: #e5ddd4;
+    }
+    .lookbook figcaption { font-size: 12px; color: var(--muted); margin-top: 8px; }
+    .products { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    @media (max-width: 900px) { .products { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 520px) { .products { grid-template-columns: 1fr; } }
+    .card {
+      background: #fff;
+      border-radius: var(--radius);
+      border: 1px solid var(--line);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card .ph { aspect-ratio: 3 / 4; background: linear-gradient(180deg, #ebe3da, #d8cdc3); }
+    .card .body { padding: 16px; }
+    .card h3 { font-size: 15px; margin: 0 0 6px; font-weight: 600; }
+    .card .price { font-size: 14px; color: var(--muted); }
+    .event-banner {
+      border-radius: var(--radius);
+      background: var(--accent);
+      color: #fff;
+      padding: 28px 32px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .event-banner h3 {
+      margin: 0 0 6px;
+      font-family: "DM Serif Display", Georgia, serif;
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    .event-banner p { margin: 0; opacity: 0.92; font-size: 14px; }
+    .event-banner .btn { background: #fff; color: var(--accent); }
+    .faq { max-width: 720px; }
+    details { border-bottom: 1px solid var(--line); padding: 16px 0; }
+    details summary {
+      cursor: pointer;
+      font-weight: 600;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    details summary::-webkit-details-marker { display: none; }
+    details summary::after { content: "+"; font-weight: 400; color: var(--muted); }
+    details[open] summary::after { content: "\2013"; }
+    details p { margin: 12px 0 0; color: var(--muted); font-size: 14px; }
+    footer.site-footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+      font-size: 13px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+    footer.site-footer .cols {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 32px;
+      margin-bottom: 32px;
+    }
+    @media (max-width: 700px) { footer.site-footer .cols { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="meta-banner">
+    Figma:
+    <a href="https://www.figma.com/design/OpPfz5I47OthVDB9qY3bCr/mcp_test?node-id=0-1" target="_blank" rel="noopener">mcp_test</a>
+    &middot; TalkToFigma 채널: <strong>itvdzsuu</strong>
+    &middot; 연결된 Figma 문서는 비어 있어 Notion MCP Prototype(IA·요구사항)을 반영했습니다.
+  </div>
+
+  <header class="site">
+    <div class="site-inner">
+      <div class="logo">Lumen Atelier</div>
+      <nav aria-label="주요 메뉴">
+        <a href="#brand">브랜드</a>
+        <a href="#lookbook">룩북</a>
+        <a href="#products">베스트</a>
+        <a href="#event">이벤트</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-primary" href="#event">이벤트 참여</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">일상의 실루엗에, 조용한 설렌을 더하다</h1>
+        <p class="lead">
+          감성 기반 패션 브랜드 랜딩. 수도권 직장인 여성을 위한 첫인상과 스타일링 인사이트.
+          <span style="display:block;margin-top:8px;font-size:0.9em;">요구사항: Hero, 슬로건, 짧은 CTA, 과도한 텍스트 지양</span>
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#products">지금 둘러보기</a>
+          <a class="btn btn-ghost" href="#lookbook">룩북 보기</a>
+        </div>
+      </div>
+      <div class="hero-visual" role="img" aria-label="Hero 이미지 플레이스홀더"></div>
+    </section>
+
+    <section class="block alt" id="brand">
+      <div class="section-head">
+        <h2>브랜드 소개</h2>
+        <span>IA: 브랜드소개</span>
+      </div>
+      <div class="brand-grid">
+        <div>
+          <p>신규 방문자가 브랜드를 빠르게 이해하도록 카피와 여백이 중심인 레이아웃으로 구성합니다.</p>
+          <p>목표: 브랜드 첫인상, 이벤트 참여 전환, 모바일 중심 경험 (Product Brief).</p>
+          <a class="btn btn-ghost" href="#event">이벤트로 이동</a>
+        </div>
+        <div class="lookbook">
+          <figure><div class="ph" style="height:100%"></div><figcaption>무드 A</figcaption></figure>
+          <figure><div class="ph" style="height:100%"></div><figcaption>무드 B</figcaption></figure>
+          <figure><div class="ph" style="height:100%"></div><figcaption>무드 C</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="lookbook">
+      <div class="section-head">
+        <h2>추천 룩북</h2>
+        <span>IA: 추천룩북</span>
+      </div>
+      <div class="lookbook">
+        <figure><div class="ph" style="height:100%"></div><figcaption>Office to Evening</figcaption></figure>
+        <figure><div class="ph" style="height:100%"></div><figcaption>Weekend Linen</figcaption></figure>
+        <figure><div class="ph" style="height:100%"></div><figcaption>Soft Tailoring</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="block alt" id="products">
+      <div class="section-head">
+        <h2>베스트 상품</h2>
+        <span>카드 3~6개 노출 (Requirements)</span>
+      </div>
+      <div class="products">
+        <article class="card">
+          <div class="ph"></div>
+          <div class="body">
+            <h3>실크 치니스 블라우스</h3>
+            <div class="price">89,000원</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="ph"></div>
+          <div class="body">
+            <h3>테일러드 벨트</h3>
+            <div class="price">102,000원</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="ph"></div>
+          <div class="body">
+            <h3>미니 치마</h3>
+            <div class="price">198,000원</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="ph"></div>
+          <div class="body">
+            <h3>캐시미어 세트</h3>
+            <div class="price">128,000원</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="ph"></div>
+          <div class="body">
+            <h3>레더 미니 백</h3>
+            <div class="price">145,000원</div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="ph"></div>
+          <div class="body">
+            <h3>시어 서머 카디건</h3>
+            <div class="price">72,000원</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="block" id="event">
+      <div class="section-head">
+        <h2>이벤트</h2>
+        <span>IA: 이벤트배너</span>
+      </div>
+      <div class="event-banner">
+        <div>
+          <h3>스프링 오픈 — 첫 구매 15%</h3>
+          <p>짧고 행동 유도형 카피와 명확한 기한으로 전환을 유도합니다.</p>
+        </div>
+        <a class="btn" href="#">참여하기</a>
+      </div>
+    </section>
+
+    <section class="block alt" id="faq">
+      <div class="section-head">
+        <h2>자주 묻는 질문</h2>
+        <span>아코디언 (Requirements)</span>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>배송은 얼마나 걸리나요?</summary>
+          <p>영업일 기준 2~4일 내 출고이며, 지역에 따라 달라질 수 있습니다.</p>
+        </details>
+        <details>
+          <summary>사이즈 교환은 가능한가요?</summary>
+          <p>수령 후 7일 이내, 미사용 제품에 한해 교환 신청이 가능합니다.</p>
+        </details>
+        <details>
+          <summary>이벤트 할인은 중복 적용되나요?</summary>
+          <p>이벤트별 정책에 따라 다릅니다. 상세 페이지에서 조건을 확인해 주세요.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="cols">
+      <div>
+        <strong style="color:var(--ink);font-family:'DM Serif Display',serif;font-size:1.1rem;">Lumen Atelier</strong>
+        <p style="margin:12px 0 0;">감성 스타일링 · HTML/CSS/JS 기준으로 DOM 구조를 명확히 할 수 있는 섹션 단위 (Requirements).</p>
+      </div>
+      <div>
+        <strong style="color:var(--ink);">고객 지원</strong>
+        <p style="margin:8px 0 0;">help@example.com</p>
+      </div>
+      <div>
+        <strong style="color:var(--ink);">채널</strong>
+        <p style="margin:8px 0 0;">TalkToFigma &middot; itvdzsuu</p>
+      </div>
+    </div>
+    <p style="margin:0;">섹션 순서: Hero, 브랜드소개, 추천룩북, 베스트상품, 이벤트배너, FAQ, Footer (Notion Page IA).</p>
+  </footer>
+  <script src="https://mcp.figma.com/mcp/html-to-design/capture.js" async></script>
+</body>
+</html>

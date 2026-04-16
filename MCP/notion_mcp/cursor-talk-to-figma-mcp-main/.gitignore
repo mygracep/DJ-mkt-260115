@@ -1,0 +1,7 @@
+node_modules/
+.cursor/
+*.env
+dist/
+docs/
+mcp-config/**/*.env
+google-sheets-mcp/credentials.json

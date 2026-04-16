@@ -1,0 +1,6 @@
+[     372ms] [LOG] Common Layout Initialized @ https://static.msscdn.net/static/common/layout-pc/render.js:240
+[     476ms] [WARNING] Datadog Browser SDK: SDK is loaded more than once. This is unsupported and might have unexpected behavior. @ https://static.msscdn.net/static/v2/pc/home/vendor/@datadog.js:2
+[    4582ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.musinsa.com/main/musinsa/recommend?gf=A:0
+[   17331ms] [LOG] Common Layout Initialized @ https://static.msscdn.net/static/common/layout-pc/render.js:240
+[   17393ms] [WARNING] Datadog Browser SDK: SDK is loaded more than once. This is unsupported and might have unexpected behavior. @ https://static.msscdn.net/static/v2/pc/home/vendor/@datadog.js:2
+[   18715ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.musinsa.com/main/beauty/recommend?gf=A:0

@@ -1,0 +1,1978 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img [ref=e7]
+          - generic [ref=e9]: 팬스토어에서 요즘 주목받는 굿즈를 확인해 보세요.
+        - generic [ref=e10]:
+          - button "카테고리 메뉴 열기" [ref=e11] [cursor=pointer]:
+            - img [ref=e13]
+          - generic [ref=e15]:
+            - link "MUSINSA 페이지로 이동" [ref=e16] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/musinsa
+              - text: MUSINSA
+            - link "BEAUTY 페이지로 이동" [ref=e17] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/beauty
+              - text: BEAUTY
+            - link "SPORTS 페이지로 이동" [ref=e18] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/player
+              - text: SPORTS
+            - link "OUTLET 페이지로 이동" [ref=e19] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/outlet
+              - text: OUTLET
+            - link "BOUTIQUE 페이지로 이동" [ref=e20] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/boutique
+              - text: BOUTIQUE
+            - link "KICKS 페이지로 이동" [ref=e21] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/sneaker
+              - text: KICKS
+            - link "KIDS 페이지로 이동" [ref=e22] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/kids
+              - text: KIDS
+            - link "USED 페이지로 이동" [ref=e23] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/used
+              - text: USED
+          - link "스냅 페이지로 이동" [ref=e24] [cursor=pointer]:
+            - /url: https://www.musinsa.com/snap
+            - img [ref=e25]
+            - text: SNAP
+        - generic [ref=e29]:
+          - button "검색 레이어 열기" [ref=e30] [cursor=pointer]: 검색
+          - link "좋아요 페이지로 이동" [ref=e31] [cursor=pointer]:
+            - /url: https://www.musinsa.com/like/goods
+            - text: 좋아요
+          - link "마이 페이지로 이동" [ref=e32] [cursor=pointer]:
+            - /url: https://www.musinsa.com/mypage
+            - text: 마이
+          - link "장바구니 페이지로 이동" [ref=e33] [cursor=pointer]:
+            - /url: https://www.musinsa.com/orders/cart
+            - text: 장바구니
+          - link "로그인 페이지로 이동" [ref=e34] [cursor=pointer]:
+            - /url: https://www.musinsa.com/auth/login?referer=https%3A%2F%2Fwww.musinsa.com%2Fmain%2Fbeauty%2Frecommend%3Fgf%3DA
+            - generic [ref=e35]: 로그인
+    - banner [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e39]:
+          - generic [ref=e41]:
+            - button "musinsaLogo" [ref=e42] [cursor=pointer]:
+              - img "musinsaLogo" [ref=e44]
+            - button "storeLogo" [ref=e45] [cursor=pointer]:
+              - img "storeLogo" [ref=e47]
+          - generic [ref=e48]:
+            - button "앱테크 페이지로 이동" [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+            - button "알림" [ref=e54] [cursor=pointer]:
+              - img [ref=e55]
+        - generic [ref=e58] [cursor=pointer]:
+          - button "뷰티 상품을 검색해 보세요." [ref=e59]:
+            - textbox "검색창": 뷰티 상품을 검색해 보세요.
+          - button "검색버튼" [ref=e60]:
+            - img [ref=e61]
+    - main [ref=e63]:
+      - generic [ref=e65]:
+        - link "추천" [ref=e67] [cursor=pointer]:
+          - /url: /main/beauty/recommend
+          - generic [ref=e70]: 추천
+        - link "랭킹" [ref=e72] [cursor=pointer]:
+          - /url: /main/beauty/ranking
+          - generic [ref=e75]: 랭킹
+        - link "세일" [ref=e77] [cursor=pointer]:
+          - /url: /main/beauty/sale
+          - generic [ref=e80]: 세일
+        - link "발매" [ref=e82] [cursor=pointer]:
+          - /url: /main/beauty/release
+          - generic [ref=e85]: 발매
+        - link "루나 글로스&치크" [ref=e87] [cursor=pointer]:
+          - /url: https://www.musinsa.com/content/1488779566998280917
+          - generic [ref=e90]: 루나 글로스&치크
+        - link "어덴비 라이브" [ref=e92] [cursor=pointer]:
+          - /url: https://www.musinsa.com/content/1490634432201892451
+          - generic [ref=e95]: 어덴비 라이브
+      - article [ref=e96]:
+        - heading "무신사 뷰티 | 추천" [level=2] [ref=e97]
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e104]:
+              - link "언더톤 슬립핏 립라이너 4종 헤비메이크업" [ref=e106] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1489858909288141039?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=33
+                - figure "언더톤 슬립핏 립라이너 4종 헤비메이크업" [ref=e107]:
+                  - generic [ref=e109]:
+                    - paragraph [ref=e110]: 언더톤 슬립핏 립라이너 4종
+                    - paragraph [ref=e111]: 헤비메이크업
+              - link "노글루 속눈썹 발매 최대 51% 할인 바닐라코" [ref=e113] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490884286248785940?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=34
+                - figure "노글루 속눈썹 발매 최대 51% 할인 바닐라코" [ref=e114]:
+                  - img [ref=e116]
+                  - generic [ref=e117]:
+                    - paragraph [ref=e118]: 노글루 속눈썹 발매 최대 51% 할인
+                    - paragraph [ref=e119]: 바닐라코
+              - link "자외선을 책임지는 선 & 보습 특가 메디필" [ref=e121] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1485965528521385231?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=35
+                - figure "자외선을 책임지는 선 & 보습 특가 메디필" [ref=e122]:
+                  - img [ref=e124]
+                  - generic [ref=e125]:
+                    - paragraph [ref=e126]: 자외선을 책임지는 선 & 보습 특가
+                    - paragraph [ref=e127]: 메디필
+              - link "뷰티 첫 구매 혜택 최대 30% 쿠폰 무신사 뷰티" [ref=e129] [cursor=pointer]:
+                - /url: https://www.musinsa.com/onboarding/engagement/musinsabeautynew?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=1
+                - figure "뷰티 첫 구매 혜택 최대 30% 쿠폰 무신사 뷰티" [ref=e130]:
+                  - img [ref=e132]
+                  - generic [ref=e133]:
+                    - paragraph [ref=e134]: 뷰티 첫 구매 혜택 최대 30% 쿠폰
+                    - paragraph [ref=e135]: 무신사 뷰티
+              - link "뷰티 첫 구매 혜택 최대 30% 쿠폰 무신사 뷰티" [ref=e137] [cursor=pointer]:
+                - /url: https://www.musinsa.com/onboarding/engagement/musinsabeautynew?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=2
+                - figure "뷰티 첫 구매 혜택 최대 30% 쿠폰 무신사 뷰티" [ref=e138]:
+                  - img [ref=e140]
+                  - generic [ref=e141]:
+                    - paragraph [ref=e142]: 뷰티 첫 구매 혜택 최대 30% 쿠폰
+                    - paragraph [ref=e143]: 무신사 뷰티
+              - link "묘정 특별 라이브 헤어 케어 혜택 어덴비" [ref=e145] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490634432201892451?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=3
+                - figure "묘정 특별 라이브 헤어 케어 혜택 어덴비" [ref=e146]:
+                  - img [ref=e148]
+                  - generic [ref=e149]:
+                    - paragraph [ref=e150]: 묘정 특별 라이브 헤어 케어 혜택
+                    - paragraph [ref=e151]: 어덴비
+              - link "글루타치온 토닝 선세럼 선 발매 원씽" [ref=e153] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1481894564033230836?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=4
+                - figure "글루타치온 토닝 선세럼 선 발매 원씽" [ref=e154]:
+                  - img [ref=e156]
+                  - generic [ref=e157]:
+                    - paragraph [ref=e158]: 글루타치온 토닝 선세럼 선 발매
+                    - paragraph [ref=e159]: 원씽
+              - link "특별 이벤트 활력 충전 솔루션 익스트림" [ref=e161] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1486300649720885542?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=5
+                - figure "특별 이벤트 활력 충전 솔루션 익스트림" [ref=e162]:
+                  - img [ref=e164]
+                  - generic [ref=e165]:
+                    - paragraph [ref=e166]: 특별 이벤트 활력 충전 솔루션
+                    - paragraph [ref=e167]: 익스트림
+              - link "아모레퍼시픽 연합전 최대 35% 할인 한율, 라네즈 외" [ref=e169] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1440512200490432709?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=6
+                - figure "아모레퍼시픽 연합전 최대 35% 할인 한율, 라네즈 외" [ref=e170]:
+                  - generic [ref=e172]:
+                    - paragraph [ref=e173]: 아모레퍼시픽 연합전 최대 35% 할인
+                    - paragraph [ref=e174]: 한율, 라네즈 외
+              - link "입점 기념 최대 55% 할인 조선미녀" [ref=e176] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490951818334700311?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=7
+                - figure "입점 기념 최대 55% 할인 조선미녀" [ref=e177]:
+                  - generic [ref=e179]:
+                    - paragraph [ref=e180]: 입점 기념 최대 55% 할인
+                    - paragraph [ref=e181]: 조선미녀
+              - link "한 끗으로 달라지는 섬세 브러쉬 피카소" [ref=e183] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1443869834960385962?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=8
+                - figure "한 끗으로 달라지는 섬세 브러쉬 피카소" [ref=e184]:
+                  - generic [ref=e186]:
+                    - paragraph [ref=e187]: 한 끗으로 달라지는 섬세 브러쉬
+                    - paragraph [ref=e188]: 피카소
+              - link "두피부터 시작하는 헤어 케어 솔루션 네쉬" [ref=e190] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1491036133823362458?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=9
+                - figure "두피부터 시작하는 헤어 케어 솔루션 네쉬" [ref=e191]:
+                  - generic [ref=e193]:
+                    - paragraph [ref=e194]: 두피부터 시작하는 헤어 케어 솔루션
+                    - paragraph [ref=e195]: 네쉬
+              - link "원샷커버 컨실러 출시 미닉" [ref=e197] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1481894482093307189?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=10
+                - figure "원샷커버 컨실러 출시 미닉" [ref=e198]:
+                  - generic [ref=e200]:
+                    - paragraph [ref=e201]: 원샷커버 컨실러 출시
+                    - paragraph [ref=e202]: 미닉
+              - link "그루밍의 시작 특별 20% 쿠폰 질레트" [ref=e204] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490593719216381074?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=11
+                - figure "그루밍의 시작 특별 20% 쿠폰 질레트" [ref=e205]:
+                  - generic [ref=e207]:
+                    - paragraph [ref=e208]: 그루밍의 시작 특별 20% 쿠폰
+                    - paragraph [ref=e209]: 질레트
+              - link "쇼타로 & 원빈 인생세컷 증정 이더앤" [ref=e211] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1485500750549860683?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=12
+                - figure "쇼타로 & 원빈 인생세컷 증정 이더앤" [ref=e212]:
+                  - generic [ref=e214]:
+                    - paragraph [ref=e215]: 쇼타로 & 원빈 인생세컷 증정
+                    - paragraph [ref=e216]: 이더앤
+              - link "오 비타미네 특집전 단독 사은품 증정 비오템" [ref=e218] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1483761417343097502?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=13
+                - figure "오 비타미네 특집전 단독 사은품 증정 비오템" [ref=e219]:
+                  - generic [ref=e221]:
+                    - paragraph [ref=e222]: 오 비타미네 특집전 단독 사은품 증정
+                    - paragraph [ref=e223]: 비오템
+              - link "필릭스 픽 브랜드 단독 혜택 증정 헤라" [ref=e225] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1483762080548805234?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=14
+                - figure "필릭스 픽 브랜드 단독 혜택 증정 헤라" [ref=e226]:
+                  - generic [ref=e228]:
+                    - paragraph [ref=e229]: 필릭스 픽 브랜드 단독 혜택 증정
+                    - paragraph [ref=e230]: 헤라
+              - link "브랜드데이 최대 74% 할인 셀퓨전씨" [ref=e232] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490995688858717165?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=15
+                - figure "브랜드데이 최대 74% 할인 셀퓨전씨" [ref=e233]:
+                  - generic [ref=e235]:
+                    - paragraph [ref=e236]: 브랜드데이 최대 74% 할인
+                    - paragraph [ref=e237]: 셀퓨전씨
+              - link "나만의 향기를 찾는 시간 엑스니힐로, 메모파리 외" [ref=e239] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1491326379576546767?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=16
+                - figure "나만의 향기를 찾는 시간 엑스니힐로, 메모파리 외" [ref=e240]:
+                  - generic [ref=e242]:
+                    - paragraph [ref=e243]: 나만의 향기를 찾는 시간
+                    - paragraph [ref=e244]: 엑스니힐로, 메모파리 외
+              - link "환절기 필수 뷰티템 최대 50% 할인 메디힐" [ref=e246] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1489446555429295733?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=17
+                - figure "환절기 필수 뷰티템 최대 50% 할인 메디힐" [ref=e247]:
+                  - generic [ref=e249]:
+                    - paragraph [ref=e250]: 환절기 필수 뷰티템 최대 50% 할인
+                    - paragraph [ref=e251]: 메디힐
+              - link "최저가 도전 최대 45% 할인 유닉스" [ref=e253] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490649961796342852?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=18
+                - figure "최저가 도전 최대 45% 할인 유닉스" [ref=e254]:
+                  - generic [ref=e256]:
+                    - paragraph [ref=e257]: 최저가 도전 최대 45% 할인
+                    - paragraph [ref=e258]: 유닉스
+              - link "글로우 배리어 세럼 신규 발매 퍼셀" [ref=e260] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1491034275868327762?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=19
+                - figure "글로우 배리어 세럼 신규 발매 퍼셀" [ref=e261]:
+                  - generic [ref=e263]:
+                    - paragraph [ref=e264]: 글로우 배리어 세럼 신규 발매
+                    - paragraph [ref=e265]: 퍼셀
+              - link "신상 퍼퓸 발매 최대 30% 할인 지미추 퍼퓸" [ref=e267] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490996472417630334?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=20
+                - figure "신상 퍼퓸 발매 최대 30% 할인 지미추 퍼퓸" [ref=e268]:
+                  - generic [ref=e270]:
+                    - paragraph [ref=e271]: 신상 퍼퓸 발매 최대 30% 할인
+                    - paragraph [ref=e272]: 지미추 퍼퓸
+              - link "파데 프리를 위한 첫걸음 비긴스 바이 정샘물" [ref=e274] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1491004718054389532?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=21
+                - figure "파데 프리를 위한 첫걸음 비긴스 바이 정샘물" [ref=e275]:
+                  - generic [ref=e277]:
+                    - paragraph [ref=e278]: 파데 프리를 위한 첫걸음
+                    - paragraph [ref=e279]: 비긴스 바이 정샘물
+              - link "얼리 서머 아이템 단독 사은품 증정 칠리" [ref=e281] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490504785015353263?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=22
+                - figure "얼리 서머 아이템 단독 사은품 증정 칠리" [ref=e282]:
+                  - generic [ref=e284]:
+                    - paragraph [ref=e285]: 얼리 서머 아이템 단독 사은품 증정
+                    - paragraph [ref=e286]: 칠리
+              - link "팡팡으로 완성한 헤어 튜토리얼 에뛰드" [ref=e288] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1483740712329172146?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=23
+                - figure "팡팡으로 완성한 헤어 튜토리얼 에뛰드" [ref=e289]:
+                  - generic [ref=e291]:
+                    - paragraph [ref=e292]: 팡팡으로 완성한 헤어 튜토리얼
+                    - paragraph [ref=e293]: 에뛰드
+              - link "악마는 프라다를 입는다 에디션 발매 정샘물" [ref=e295] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1488003813617951691?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=24
+                - figure "악마는 프라다를 입는다 에디션 발매 정샘물" [ref=e296]:
+                  - generic [ref=e298]:
+                    - paragraph [ref=e299]: 악마는 프라다를 입는다 에디션 발매
+                    - paragraph [ref=e300]: 정샘물
+              - link "더마 UV 기획전 단독 사은품 증정 에스트라" [ref=e302] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1483762663084940453?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=25
+                - figure "더마 UV 기획전 단독 사은품 증정 에스트라" [ref=e303]:
+                  - generic [ref=e305]:
+                    - paragraph [ref=e306]: 더마 UV 기획전 단독 사은품 증정
+                    - paragraph [ref=e307]: 에스트라
+              - link "실크 스킨 레이어 단독 구성 발매 에스쁘아" [ref=e309] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1488043755714896252?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=26
+                - figure "실크 스킨 레이어 단독 구성 발매 에스쁘아" [ref=e310]:
+                  - generic [ref=e312]:
+                    - paragraph [ref=e313]: 실크 스킨 레이어 단독 구성 발매
+                    - paragraph [ref=e314]: 에스쁘아
+              - link "빅세일 브랜드위크 최대 63% 할인 써니콘" [ref=e316] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1491035492178735482?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=27
+                - figure "빅세일 브랜드위크 최대 63% 할인 써니콘" [ref=e317]:
+                  - generic [ref=e319]:
+                    - paragraph [ref=e320]: 빅세일 브랜드위크 최대 63% 할인
+                    - paragraph [ref=e321]: 써니콘
+              - link "브랜드위크 최대 25% 할인 일리윤" [ref=e323] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1488054519737874863?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=28
+                - figure "브랜드위크 최대 25% 할인 일리윤" [ref=e324]:
+                  - generic [ref=e326]:
+                    - paragraph [ref=e327]: 브랜드위크 최대 25% 할인
+                    - paragraph [ref=e328]: 일리윤
+              - link "산뜻하고 가벼운 여름의 향 로이비" [ref=e330] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1478266668520568243?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=29
+                - figure "산뜻하고 가벼운 여름의 향 로이비" [ref=e331]:
+                  - generic [ref=e333]:
+                    - paragraph [ref=e334]: 산뜻하고 가벼운 여름의 향
+                    - paragraph [ref=e335]: 로이비
+              - link "특별한 팝업 풍성한 혜택 르버브" [ref=e337] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1484480284901097915?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=30
+                - figure "특별한 팝업 풍성한 혜택 르버브" [ref=e338]:
+                  - generic [ref=e340]:
+                    - paragraph [ref=e341]: 특별한 팝업 풍성한 혜택
+                    - paragraph [ref=e342]: 르버브
+              - link "담을수록 커지는 최대 5만원 혜택 셀렉스, 에뛰드 외" [ref=e344] [cursor=pointer]:
+                - /url: https://www.musinsa.com/campaign/beautycoupon2604/0?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=31
+                - figure "담을수록 커지는 최대 5만원 혜택 셀렉스, 에뛰드 외" [ref=e345]:
+                  - generic [ref=e347]:
+                    - paragraph [ref=e348]: 담을수록 커지는 최대 5만원 혜택
+                    - paragraph [ref=e349]: 셀렉스, 에뛰드 외
+              - link "환절기 각질케어 블랙슈가 특가전 스킨푸드" [ref=e351] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1491021626854084170?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=32
+                - figure "환절기 각질케어 블랙슈가 특가전 스킨푸드" [ref=e352]:
+                  - generic [ref=e354]:
+                    - paragraph [ref=e355]: 환절기 각질케어 블랙슈가 특가전
+                    - paragraph [ref=e356]: 스킨푸드
+              - link "언더톤 슬립핏 립라이너 4종 헤비메이크업" [ref=e358] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1489858909288141039?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=33
+                - figure "언더톤 슬립핏 립라이너 4종 헤비메이크업" [ref=e359]:
+                  - generic [ref=e361]:
+                    - paragraph [ref=e362]: 언더톤 슬립핏 립라이너 4종
+                    - paragraph [ref=e363]: 헤비메이크업
+              - link "노글루 속눈썹 발매 최대 51% 할인 바닐라코" [ref=e365] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490884286248785940?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=34
+                - figure "노글루 속눈썹 발매 최대 51% 할인 바닐라코" [ref=e366]:
+                  - generic [ref=e368]:
+                    - paragraph [ref=e369]: 노글루 속눈썹 발매 최대 51% 할인
+                    - paragraph [ref=e370]: 바닐라코
+              - link "자외선을 책임지는 선 & 보습 특가 메디필" [ref=e372] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1485965528521385231?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=35
+                - figure "자외선을 책임지는 선 & 보습 특가 메디필" [ref=e373]:
+                  - generic [ref=e375]:
+                    - paragraph [ref=e376]: 자외선을 책임지는 선 & 보습 특가
+                    - paragraph [ref=e377]: 메디필
+              - link "뷰티 첫 구매 혜택 최대 30% 쿠폰 무신사 뷰티" [ref=e379] [cursor=pointer]:
+                - /url: https://www.musinsa.com/onboarding/engagement/musinsabeautynew?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=1
+                - figure "뷰티 첫 구매 혜택 최대 30% 쿠폰 무신사 뷰티" [ref=e380]:
+                  - generic [ref=e382]:
+                    - paragraph [ref=e383]: 뷰티 첫 구매 혜택 최대 30% 쿠폰
+                    - paragraph [ref=e384]: 무신사 뷰티
+              - link "뷰티 첫 구매 혜택 최대 30% 쿠폰 무신사 뷰티" [ref=e386] [cursor=pointer]:
+                - /url: https://www.musinsa.com/onboarding/engagement/musinsabeautynew?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=2
+                - figure "뷰티 첫 구매 혜택 최대 30% 쿠폰 무신사 뷰티" [ref=e387]:
+                  - generic [ref=e389]:
+                    - paragraph [ref=e390]: 뷰티 첫 구매 혜택 최대 30% 쿠폰
+                    - paragraph [ref=e391]: 무신사 뷰티
+              - link "묘정 특별 라이브 헤어 케어 혜택 어덴비" [ref=e393] [cursor=pointer]:
+                - /url: https://www.musinsa.com/content/1490634432201892451?utm_source=/main/beauty/recommend&utm_medium=main_display_big_banner&utm_campaign=3
+                - figure "묘정 특별 라이브 헤어 케어 혜택 어덴비" [ref=e394]:
+                  - generic [ref=e396]:
+                    - paragraph [ref=e397]: 묘정 특별 라이브 헤어 케어 혜택
+                    - paragraph [ref=e398]: 어덴비
+            - article [ref=e399]:
+              - generic [ref=e400]:
+                - link "뷰티 체험단 퀵메뉴 하이라이트 이미지 뷰티 체험단" [ref=e401] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/preuser/main?category=BEAUTY
+                  - img "뷰티 체험단 퀵메뉴 하이라이트 이미지" [ref=e402]
+                  - generic [ref=e403]: 뷰티 체험단
+                - link "월간 쿠폰팩 퀵메뉴 하이라이트 이미지 월간 쿠폰팩" [ref=e404] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/campaign/beautycoupon2604/0
+                  - img "월간 쿠폰팩 퀵메뉴 하이라이트 이미지" [ref=e405]
+                  - generic [ref=e406]: 월간 쿠폰팩
+                - link "셀퓨전씨 브랜드데이 퀵메뉴 하이라이트 이미지 셀퓨전씨 브랜드데이" [ref=e407] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/content/1490995688858717165
+                  - img "셀퓨전씨 브랜드데이 퀵메뉴 하이라이트 이미지" [ref=e408]
+                  - generic [ref=e409]: 셀퓨전씨 브랜드데이
+                - link "무탠뷰티 × 노홍철 퀵메뉴 하이라이트 이미지 무탠뷰티 × 노홍철" [ref=e410] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/content/1491665999308215026
+                  - img "무탠뷰티 × 노홍철 퀵메뉴 하이라이트 이미지" [ref=e411]
+                  - generic [ref=e412]: 무탠뷰티 × 노홍철
+                - link "오직 무신사 뷰티 퀵메뉴 하이라이트 이미지 오직 무신사 뷰티" [ref=e413] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/campaign/omb2602
+                  - img "오직 무신사 뷰티 퀵메뉴 하이라이트 이미지" [ref=e414]
+                  - generic [ref=e415]: 오직 무신사 뷰티
+          - generic [ref=e416]:
+            - article [ref=e417]:
+              - generic [ref=e418]:
+                - link "향수 퀵메뉴 이미지 향수" [ref=e419] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104005
+                  - img "향수 퀵메뉴 이미지" [ref=e420]
+                  - generic [ref=e421]: 향수
+                - link "립 퀵메뉴 이미지 립" [ref=e422] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104015
+                  - img "립 퀵메뉴 이미지" [ref=e423]
+                  - generic [ref=e424]: 립
+                - link "베이스 퀵메뉴 이미지 베이스" [ref=e425] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104014
+                  - img "베이스 퀵메뉴 이미지" [ref=e426]
+                  - generic [ref=e427]: 베이스
+                - link "아이메이크업 퀵메뉴 이미지 아이메이크업" [ref=e428] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104016
+                  - img "아이메이크업 퀵메뉴 이미지" [ref=e429]
+                  - generic [ref=e430]: 아이메이크업
+                - link "스킨케어 퀵메뉴 이미지 스킨케어" [ref=e431] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104001
+                  - img "스킨케어 퀵메뉴 이미지" [ref=e432]
+                  - generic [ref=e433]: 스킨케어
+                - link "선케어 퀵메뉴 이미지 선케어" [ref=e434] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104002
+                  - img "선케어 퀵메뉴 이미지" [ref=e435]
+                  - generic [ref=e436]: 선케어
+                - link "클렌징/필링 퀵메뉴 이미지 클렌징/필링" [ref=e437] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104003
+                  - img "클렌징/필링 퀵메뉴 이미지" [ref=e438]
+                  - generic [ref=e439]: 클렌징/필링
+                - link "바디케어 퀵메뉴 이미지 바디케어" [ref=e440] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104007
+                  - img "바디케어 퀵메뉴 이미지" [ref=e441]
+                  - generic [ref=e442]: 바디케어
+                - link "헤어케어 퀵메뉴 이미지 헤어케어" [ref=e443] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104006
+                  - img "헤어케어 퀵메뉴 이미지" [ref=e444]
+                  - generic [ref=e445]: 헤어케어
+                - link "디바이스 퀵메뉴 이미지 디바이스" [ref=e446] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104010
+                  - img "디바이스 퀵메뉴 이미지" [ref=e447]
+                  - generic [ref=e448]: 디바이스
+                - link "헬스/푸드 퀵메뉴 이미지 헬스/푸드" [ref=e449] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104012
+                  - img "헬스/푸드 퀵메뉴 이미지" [ref=e450]
+                  - generic [ref=e451]: 헬스/푸드
+                - link "쉐이빙/제모 퀵메뉴 이미지 쉐이빙/제모" [ref=e452] [cursor=pointer]:
+                  - /url: https://www.musinsa.com/category/104009
+                  - img "쉐이빙/제모 퀵메뉴 이미지" [ref=e453]
+                  - generic [ref=e454]: 쉐이빙/제모
+            - generic [ref=e455]:
+              - heading "실시간 랭킹" [level=3] [ref=e458]
+              - generic [ref=e459]:
+                - button "전체" [ref=e460] [cursor=pointer]:
+                  - generic [ref=e461]: 전체
+                - button "향수" [ref=e462] [cursor=pointer]:
+                  - generic [ref=e463]: 향수
+                - button "포인트 메이크업" [ref=e464] [cursor=pointer]:
+                  - generic [ref=e465]: 포인트 메이크업
+                - button "베이스 메이크업" [ref=e466] [cursor=pointer]:
+                  - generic [ref=e467]: 베이스 메이크업
+                - button "스킨케어" [ref=e468] [cursor=pointer]:
+                  - generic [ref=e469]: 스킨케어
+                - button "선케어" [ref=e470] [cursor=pointer]:
+                  - generic [ref=e471]: 선케어
+                - button "클렌징" [ref=e472] [cursor=pointer]:
+                  - generic [ref=e473]: 클렌징
+                - button "바디케어" [ref=e474] [cursor=pointer]:
+                  - generic [ref=e475]: 바디케어
+                - button "헤어케어" [ref=e476] [cursor=pointer]:
+                  - generic [ref=e477]: 헤어케어
+                - button "뷰티 디바이스" [ref=e478] [cursor=pointer]:
+                  - generic [ref=e479]: 뷰티 디바이스
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - generic [ref=e482]:
+                    - generic [ref=e483]:
+                      - generic [ref=e484]:
+                        - link "하이드로 스킨디펜스 쉐이브젤 199g 3개" [ref=e485] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3398812
+                          - img [ref=e487]
+                        - button "좋아요" [ref=e488] [cursor=pointer]:
+                          - img [ref=e489]
+                      - generic [ref=e491]:
+                        - link "쉬크" [ref=e492] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/schick
+                          - paragraph [ref=e493]: 쉬크
+                        - link "하이드로 스킨디펜스 쉐이브젤 199g 3개" [ref=e494] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3398812
+                          - paragraph [ref=e495]: 하이드로 스킨디펜스 쉐이브젤 199g 3개
+                        - generic [ref=e496]:
+                          - generic [ref=e497]: 60%
+                          - generic [ref=e499]: 11,700원
+                    - generic [ref=e500]:
+                      - generic [ref=e501]:
+                        - link "[노홍철 컬래버] 럭키 가이 實行力(실행력) EDP 50ml" [ref=e502] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6150470
+                          - img [ref=e504]
+                        - button "좋아요" [ref=e505] [cursor=pointer]:
+                          - img [ref=e506]
+                      - generic [ref=e508]:
+                        - link "무신사 스탠다드 뷰티" [ref=e509] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/musinsastandardbt
+                          - paragraph [ref=e510]: 무신사 스탠다드 뷰티
+                        - link "[노홍철 컬래버] 럭키 가이 實行力(실행력) EDP 50ml" [ref=e511] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6150470
+                          - paragraph [ref=e512]: "[노홍철 컬래버] 럭키 가이 實行力(실행력) EDP 50ml"
+                        - generic [ref=e513]:
+                          - generic [ref=e514]: 20%
+                          - generic [ref=e516]: 39,900원
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - generic [ref=e519]:
+                        - link "종합비타민[멀티비타민+오메가+밀크씨슬+루테인] 올인원 포 맨 1박스 (30포) 1개월분" [ref=e520] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4165788
+                          - img [ref=e522]
+                        - button "좋아요" [ref=e523] [cursor=pointer]:
+                          - img [ref=e524]
+                      - generic [ref=e526]:
+                        - link "익스트림" [ref=e527] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/extreme
+                          - paragraph [ref=e528]: 익스트림
+                        - link "종합비타민[멀티비타민+오메가+밀크씨슬+루테인] 올인원 포 맨 1박스 (30포) 1개월분" [ref=e529] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4165788
+                          - paragraph [ref=e530]: 종합비타민[멀티비타민+오메가+밀크씨슬+루테인] 올인원 포 맨 1박스 (30포) 1개월분
+                        - generic [ref=e531]:
+                          - generic [ref=e532]: 54%
+                          - generic [ref=e534]: 34,500원
+                    - generic [ref=e535]:
+                      - generic [ref=e536]:
+                        - link "센티드 데오스틱 (3종 1택)" [ref=e537] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4235181
+                          - img [ref=e539]
+                        - button "좋아요" [ref=e540] [cursor=pointer]:
+                          - img [ref=e541]
+                      - generic [ref=e543]:
+                        - link "지비에이치 코스메틱" [ref=e544] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/gbhcosmetic
+                          - paragraph [ref=e545]: 지비에이치 코스메틱
+                        - link "센티드 데오스틱 (3종 1택)" [ref=e546] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4235181
+                          - paragraph [ref=e547]: 센티드 데오스틱 (3종 1택)
+                        - generic [ref=e548]:
+                          - generic [ref=e549]: 40%
+                          - generic [ref=e551]: 16,800원
+                  - generic [ref=e552]:
+                    - generic [ref=e553]:
+                      - generic [ref=e554]:
+                        - link "프로핏 SPORTS 와일드 초코 350ml x 20개 [4/20 출고예정]" [ref=e555] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6097235
+                          - img [ref=e557]
+                        - button "좋아요" [ref=e558] [cursor=pointer]:
+                          - img [ref=e559]
+                      - generic [ref=e561]:
+                        - link "셀렉스" [ref=e562] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/selex
+                          - paragraph [ref=e563]: 셀렉스
+                        - link "프로핏 SPORTS 와일드 초코 350ml x 20개 [4/20 출고예정]" [ref=e564] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6097235
+                          - paragraph [ref=e565]: 프로핏 SPORTS 와일드 초코 350ml x 20개 [4/20 출고예정]
+                        - generic [ref=e566]:
+                          - generic [ref=e567]: 39%
+                          - generic [ref=e569]: 47,920원
+                    - generic [ref=e570]:
+                      - generic [ref=e571]:
+                        - link "[1+1] 듀얼 아르기닌 플러스 120정 1박스 (2개월분)" [ref=e572] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3532485
+                          - img [ref=e574]
+                        - button "좋아요" [ref=e575] [cursor=pointer]:
+                          - img [ref=e576]
+                      - generic [ref=e578]:
+                        - link "익스트림" [ref=e579] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/extreme
+                          - paragraph [ref=e580]: 익스트림
+                        - link "[1+1] 듀얼 아르기닌 플러스 120정 1박스 (2개월분)" [ref=e581] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3532485
+                          - paragraph [ref=e582]: "[1+1] 듀얼 아르기닌 플러스 120정 1박스 (2개월분)"
+                        - generic [ref=e583]:
+                          - generic [ref=e584]: 47%
+                          - generic [ref=e586]: 15,900원
+                  - generic [ref=e587]:
+                    - generic [ref=e588]:
+                      - generic [ref=e589]:
+                        - link "레플리카 웬 더 레인 스탑스 EDT 100ML" [ref=e590] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3122052
+                          - img [ref=e592]
+                        - button "좋아요" [ref=e593] [cursor=pointer]:
+                          - img [ref=e594]
+                      - generic [ref=e596]:
+                        - link "메종 마르지엘라 퍼퓸" [ref=e597] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/maisonmargielaperfume
+                          - paragraph [ref=e598]: 메종 마르지엘라 퍼퓸
+                        - link "레플리카 웬 더 레인 스탑스 EDT 100ML" [ref=e599] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3122052
+                          - paragraph [ref=e600]: 레플리카 웬 더 레인 스탑스 EDT 100ML
+                        - generic [ref=e601]:
+                          - generic [ref=e602]: 5%
+                          - generic [ref=e604]: 209,000원
+                    - generic [ref=e605]:
+                      - generic [ref=e606]:
+                        - link "글램웨이브 봉고데기 40mm 스트로베리크림" [ref=e607] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5618035
+                          - img [ref=e609]
+                        - button "좋아요" [ref=e610] [cursor=pointer]:
+                          - img [ref=e611]
+                      - generic [ref=e613]:
+                        - link "보다나" [ref=e614] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/vodana
+                          - paragraph [ref=e615]: 보다나
+                        - link "글램웨이브 봉고데기 40mm 스트로베리크림" [ref=e616] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5618035
+                          - paragraph [ref=e617]: 글램웨이브 봉고데기 40mm 스트로베리크림
+                        - generic [ref=e618]:
+                          - generic [ref=e619]: 35%
+                          - generic [ref=e621]: 61,690원
+                  - generic [ref=e622]:
+                    - generic [ref=e623]:
+                      - generic [ref=e624]:
+                        - link "블랙 쿠션 파운데이션 듀오 SPF34/PA++ 15gx2 (본품15g+리필15g)" [ref=e625] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/1867509
+                          - img [ref=e627]
+                        - button "좋아요" [ref=e628] [cursor=pointer]:
+                          - img [ref=e629]
+                      - generic [ref=e631]:
+                        - link "헤라" [ref=e632] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/hera
+                          - paragraph [ref=e633]: 헤라
+                        - link "블랙 쿠션 파운데이션 듀오 SPF34/PA++ 15gx2 (본품15g+리필15g)" [ref=e634] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/1867509
+                          - paragraph [ref=e635]: 블랙 쿠션 파운데이션 듀오 SPF34/PA++ 15gx2 (본품15g+리필15g)
+                        - generic [ref=e636]:
+                          - generic [ref=e637]: 19%
+                          - generic [ref=e639]: 59,970원
+                    - generic [ref=e640]:
+                      - generic [ref=e641]:
+                        - link "오드퍼퓸 월넛크릭그린 EDP 50ml" [ref=e642] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4268814
+                          - img [ref=e644]
+                        - button "좋아요" [ref=e645] [cursor=pointer]:
+                          - img [ref=e646]
+                      - generic [ref=e648]:
+                        - link "비비앙" [ref=e649] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/bibiang
+                          - paragraph [ref=e650]: 비비앙
+                        - link "오드퍼퓸 월넛크릭그린 EDP 50ml" [ref=e651] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4268814
+                          - paragraph [ref=e652]: 오드퍼퓸 월넛크릭그린 EDP 50ml
+                        - generic [ref=e653]:
+                          - generic [ref=e654]: 54%
+                          - generic [ref=e656]: 68,930원
+                        - paragraph [ref=e657]: 옵션비 별도
+                  - generic [ref=e658]:
+                    - generic [ref=e659]:
+                      - generic [ref=e660]:
+                        - link "마이페이브 무드 아이 팔레트 16종" [ref=e661] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5451220
+                          - img [ref=e663]
+                        - button "좋아요" [ref=e664] [cursor=pointer]:
+                          - img [ref=e665]
+                      - generic [ref=e667]:
+                        - link "홀리카홀리카" [ref=e668] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/holikaholika
+                          - paragraph [ref=e669]: 홀리카홀리카
+                        - link "마이페이브 무드 아이 팔레트 16종" [ref=e670] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5451220
+                          - paragraph [ref=e671]: 마이페이브 무드 아이 팔레트 16종
+                        - generic [ref=e672]:
+                          - generic [ref=e673]: 37%
+                          - generic [ref=e675]: 17,640원
+                    - generic [ref=e676]:
+                      - generic [ref=e677]:
+                        - link "[정샘물 l 악마프2 에디션][한정300매 영화 티켓 증정] 매니아 FULL SET (쿠션+메탈립+미스트+물크림+블러쉬)(4종 미니어처 증정)" [ref=e678] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6200486
+                          - img [ref=e680]
+                        - button "좋아요" [ref=e681] [cursor=pointer]:
+                          - img [ref=e682]
+                      - generic [ref=e684]:
+                        - link "정샘물" [ref=e685] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/jsm
+                          - paragraph [ref=e686]: 정샘물
+                        - link "[정샘물 l 악마프2 에디션][한정300매 영화 티켓 증정] 매니아 FULL SET (쿠션+메탈립+미스트+물크림+블러쉬)(4종 미니어처 증정)" [ref=e687] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6200486
+                          - paragraph [ref=e688]: "[정샘물 l 악마프2 에디션][한정300매 영화 티켓 증정] 매니아 FULL SET (쿠션+메탈립+미스트+물크림+블러쉬)(4종 미니어처 증정)"
+                        - generic [ref=e689]:
+                          - generic [ref=e690]: 34%
+                          - generic [ref=e692]: 99,000원
+                  - generic [ref=e693]:
+                    - generic [ref=e694]:
+                      - generic [ref=e695]:
+                        - link "무신사 스탠다드 애프터 샤워 EDP 50ml" [ref=e696] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4388016
+                          - img [ref=e698]
+                        - button "좋아요" [ref=e699] [cursor=pointer]:
+                          - img [ref=e700]
+                      - generic [ref=e702]:
+                        - link "무신사 스탠다드 뷰티" [ref=e703] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/musinsastandardbt
+                          - paragraph [ref=e704]: 무신사 스탠다드 뷰티
+                        - link "무신사 스탠다드 애프터 샤워 EDP 50ml" [ref=e705] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4388016
+                          - paragraph [ref=e706]: 무신사 스탠다드 애프터 샤워 EDP 50ml
+                        - generic [ref=e707]:
+                          - generic [ref=e708]: 20%
+                          - generic [ref=e710]: 39,900원
+                    - generic [ref=e711]:
+                      - generic [ref=e712]:
+                        - link "pH 리밸런싱 포밍 트리트먼트200ml" [ref=e713] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5723499
+                          - img [ref=e715]
+                        - button "좋아요" [ref=e716] [cursor=pointer]:
+                          - img [ref=e717]
+                      - generic [ref=e719]:
+                        - link "어덴비" [ref=e720] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/athanbe
+                          - paragraph [ref=e721]: 어덴비
+                        - link "pH 리밸런싱 포밍 트리트먼트200ml" [ref=e722] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5723499
+                          - paragraph [ref=e723]: pH 리밸런싱 포밍 트리트먼트200ml
+                        - generic [ref=e724]:
+                          - generic [ref=e725]: 37%
+                          - generic [ref=e727]: 23,940원
+                  - generic [ref=e728]:
+                    - generic [ref=e729]:
+                      - generic [ref=e730]:
+                        - link "프로핏 드링크 딸기초코 250ml x 18개" [ref=e731] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5104161
+                          - img [ref=e733]
+                        - button "좋아요" [ref=e734] [cursor=pointer]:
+                          - img [ref=e735]
+                      - generic [ref=e737]:
+                        - link "셀렉스" [ref=e738] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/selex
+                          - paragraph [ref=e739]: 셀렉스
+                        - link "프로핏 드링크 딸기초코 250ml x 18개" [ref=e740] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5104161
+                          - paragraph [ref=e741]: 프로핏 드링크 딸기초코 250ml x 18개
+                        - generic [ref=e742]:
+                          - generic [ref=e743]: 53%
+                          - generic [ref=e745]: 24,720원
+                    - generic [ref=e746]:
+                      - generic [ref=e747]:
+                        - link "그린티 센트 스프레이 EDC 100ml" [ref=e748] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/1284603
+                          - img [ref=e750]
+                        - button "좋아요" [ref=e751] [cursor=pointer]:
+                          - img [ref=e752]
+                      - generic [ref=e754]:
+                        - link "엘리자베스아덴" [ref=e755] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/elizabetharden
+                          - paragraph [ref=e756]: 엘리자베스아덴
+                        - link "그린티 센트 스프레이 EDC 100ml" [ref=e757] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/1284603
+                          - paragraph [ref=e758]: 그린티 센트 스프레이 EDC 100ml
+                        - generic [ref=e759]:
+                          - generic [ref=e760]: 70%
+                          - generic [ref=e762]: 16,380원
+                  - generic [ref=e763]:
+                    - generic [ref=e764]:
+                      - generic [ref=e765]:
+                        - link "블랙 라벨 폴리쉬 오일 145ml" [ref=e766] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6052592
+                          - img [ref=e768]
+                        - button "좋아요" [ref=e769] [cursor=pointer]:
+                          - img [ref=e770]
+                      - generic [ref=e772]:
+                        - link "어덴비" [ref=e773] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/athanbe
+                          - paragraph [ref=e774]: 어덴비
+                        - link "블랙 라벨 폴리쉬 오일 145ml" [ref=e775] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6052592
+                          - paragraph [ref=e776]: 블랙 라벨 폴리쉬 오일 145ml
+                        - generic [ref=e777]:
+                          - generic [ref=e778]: 37%
+                          - generic [ref=e780]: 22,680원
+                        - paragraph [ref=e781]: 옵션비 별도
+                    - generic [ref=e782]:
+                      - generic [ref=e783]:
+                        - link "언씬 벌룬 틴트 16종" [ref=e784] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3882622
+                          - img [ref=e786]
+                        - button "좋아요" [ref=e787] [cursor=pointer]:
+                          - img [ref=e788]
+                      - generic [ref=e790]:
+                        - link "오드타입" [ref=e791] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/oddtype
+                          - paragraph [ref=e792]: 오드타입
+                        - link "언씬 벌룬 틴트 16종" [ref=e793] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3882622
+                          - paragraph [ref=e794]: 언씬 벌룬 틴트 16종
+                        - generic [ref=e795]:
+                          - generic [ref=e796]: 15%
+                          - generic [ref=e798]: 18,800원
+                  - generic [ref=e799]:
+                    - generic [ref=e800]:
+                      - generic [ref=e801]:
+                        - link "[정샘물 l 악마프2 에디션] 에센셜 스킨 누더 쿠션 (리필포함)(쿠션 케이스 커버 증정)" [ref=e802] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6204571
+                        - button "좋아요" [ref=e804] [cursor=pointer]:
+                          - img [ref=e805]
+                      - generic [ref=e807]:
+                        - link "정샘물" [ref=e808] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/jsm
+                          - paragraph [ref=e809]: 정샘물
+                        - link "[정샘물 l 악마프2 에디션] 에센셜 스킨 누더 쿠션 (리필포함)(쿠션 케이스 커버 증정)" [ref=e810] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6204571
+                          - paragraph [ref=e811]: "[정샘물 l 악마프2 에디션] 에센셜 스킨 누더 쿠션 (리필포함)(쿠션 케이스 커버 증정)"
+                        - generic [ref=e812]:
+                          - generic [ref=e813]: 23%
+                          - generic [ref=e815]: 36,960원
+                    - generic [ref=e816]:
+                      - generic [ref=e817]:
+                        - link "센슈얼 누드 글로스 5g" [ref=e818] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2996848
+                        - button "좋아요" [ref=e820] [cursor=pointer]:
+                          - img [ref=e821]
+                      - generic [ref=e823]:
+                        - link "헤라" [ref=e824] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/hera
+                          - paragraph [ref=e825]: 헤라
+                        - link "센슈얼 누드 글로스 5g" [ref=e826] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2996848
+                          - paragraph [ref=e827]: 센슈얼 누드 글로스 5g
+                        - generic [ref=e828]:
+                          - generic [ref=e829]: 19%
+                          - generic [ref=e831]: 32,470원
+                  - generic [ref=e832]:
+                    - generic [ref=e833]:
+                      - generic [ref=e834]:
+                        - link "[2PACK] 글래스팅 컬러 글로스" [ref=e835] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3886678
+                        - button "좋아요" [ref=e837] [cursor=pointer]:
+                          - img [ref=e838]
+                      - generic [ref=e840]:
+                        - link "롬앤" [ref=e841] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/romand
+                          - paragraph [ref=e842]: 롬앤
+                        - link "[2PACK] 글래스팅 컬러 글로스" [ref=e843] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3886678
+                          - paragraph [ref=e844]: "[2PACK] 글래스팅 컬러 글로스"
+                        - generic [ref=e845]:
+                          - generic [ref=e846]: 54%
+                          - generic [ref=e848]: 11,940원
+                    - generic [ref=e849]:
+                      - generic [ref=e850]:
+                        - link "레플리카 레이지 선데이 모닝 EDT 30ML" [ref=e851] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2027859
+                        - button "좋아요" [ref=e853] [cursor=pointer]:
+                          - img [ref=e854]
+                      - generic [ref=e856]:
+                        - link "메종 마르지엘라 퍼퓸" [ref=e857] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/maisonmargielaperfume
+                          - paragraph [ref=e858]: 메종 마르지엘라 퍼퓸
+                        - link "레플리카 레이지 선데이 모닝 EDT 30ML" [ref=e859] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2027859
+                          - paragraph [ref=e860]: 레플리카 레이지 선데이 모닝 EDT 30ML
+                        - generic [ref=e861]:
+                          - generic [ref=e862]: 5%
+                          - generic [ref=e864]: 104,500원
+                  - generic [ref=e865]:
+                    - generic [ref=e866]:
+                      - generic [ref=e867]:
+                        - link "레플리카 레이지 선데이 모닝 EDT 100ML" [ref=e868] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2027860
+                        - button "좋아요" [ref=e870] [cursor=pointer]:
+                          - img [ref=e871]
+                      - generic [ref=e873]:
+                        - link "메종 마르지엘라 퍼퓸" [ref=e874] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/maisonmargielaperfume
+                          - paragraph [ref=e875]: 메종 마르지엘라 퍼퓸
+                        - link "레플리카 레이지 선데이 모닝 EDT 100ML" [ref=e876] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2027860
+                          - paragraph [ref=e877]: 레플리카 레이지 선데이 모닝 EDT 100ML
+                        - generic [ref=e878]:
+                          - generic [ref=e879]: 5%
+                          - generic [ref=e881]: 209,000원
+                    - generic [ref=e882]:
+                      - generic [ref=e883]:
+                        - link "레플리카 커피 브레이크 EDT 100ML" [ref=e884] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2027892
+                        - button "좋아요" [ref=e886] [cursor=pointer]:
+                          - img [ref=e887]
+                      - generic [ref=e889]:
+                        - link "메종 마르지엘라 퍼퓸" [ref=e890] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/maisonmargielaperfume
+                          - paragraph [ref=e891]: 메종 마르지엘라 퍼퓸
+                        - link "레플리카 커피 브레이크 EDT 100ML" [ref=e892] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2027892
+                          - paragraph [ref=e893]: 레플리카 커피 브레이크 EDT 100ML
+                        - generic [ref=e894]:
+                          - generic [ref=e895]: 5%
+                          - generic [ref=e897]: 209,000원
+                  - generic [ref=e898]:
+                    - generic [ref=e899]:
+                      - generic [ref=e900]:
+                        - link "IPL 제모의료기기 SIPL-2000 PLUS" [ref=e901] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2643475
+                        - button "좋아요" [ref=e903] [cursor=pointer]:
+                          - img [ref=e904]
+                      - generic [ref=e906]:
+                        - link "이오시카" [ref=e907] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/eosika
+                          - paragraph [ref=e908]: 이오시카
+                        - link "IPL 제모의료기기 SIPL-2000 PLUS" [ref=e909] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2643475
+                          - paragraph [ref=e910]: IPL 제모의료기기 SIPL-2000 PLUS
+                        - generic [ref=e911]:
+                          - generic [ref=e912]: 43%
+                          - generic [ref=e914]: 199,000원
+                    - generic [ref=e915]:
+                      - generic [ref=e916]:
+                        - link "만능고데기 GP201T 플랫(중) 퓨어블랙" [ref=e917] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3149961
+                        - button "좋아요" [ref=e919] [cursor=pointer]:
+                          - img [ref=e920]
+                      - generic [ref=e922]:
+                        - link "글램팜" [ref=e923] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/glampalm
+                          - paragraph [ref=e924]: 글램팜
+                        - link "만능고데기 GP201T 플랫(중) 퓨어블랙" [ref=e925] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3149961
+                          - paragraph [ref=e926]: 만능고데기 GP201T 플랫(중) 퓨어블랙
+                        - generic [ref=e927]:
+                          - generic [ref=e928]: 15%
+                          - generic [ref=e930]: 204,000원
+                  - generic [ref=e931]:
+                    - generic [ref=e932]:
+                      - generic [ref=e933]:
+                        - link "아토베리어365 크림 80ml 2개" [ref=e934] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3992824
+                        - button "좋아요" [ref=e936] [cursor=pointer]:
+                          - img [ref=e937]
+                      - generic [ref=e939]:
+                        - link "에스트라" [ref=e940] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/aestura
+                          - paragraph [ref=e941]: 에스트라
+                        - link "아토베리어365 크림 80ml 2개" [ref=e942] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3992824
+                          - paragraph [ref=e943]: 아토베리어365 크림 80ml 2개
+                        - generic [ref=e944]:
+                          - generic [ref=e945]: 28%
+                          - generic [ref=e947]: 47,520원
+                    - generic [ref=e948]:
+                      - generic [ref=e949]:
+                        - link "어드밴스드 더 비타민씨 23 세럼" [ref=e950] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2775186
+                        - button "좋아요" [ref=e952] [cursor=pointer]:
+                          - img [ref=e953]
+                      - generic [ref=e955]:
+                        - link "코스알엑스" [ref=e956] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/cosrx
+                          - paragraph [ref=e957]: 코스알엑스
+                        - link "어드밴스드 더 비타민씨 23 세럼" [ref=e958] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2775186
+                          - paragraph [ref=e959]: 어드밴스드 더 비타민씨 23 세럼
+                        - generic [ref=e961]: 25,000원
+                  - generic [ref=e962]:
+                    - generic [ref=e963]:
+                      - generic [ref=e964]:
+                        - link "[총100매] 패드 60매 당근&감자&미나리 외 (30매리필+패드2매입5개 증정)" [ref=e965] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3802517
+                        - button "좋아요" [ref=e967] [cursor=pointer]:
+                          - img [ref=e968]
+                      - generic [ref=e970]:
+                        - link "스킨푸드" [ref=e971] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/skinfood
+                          - paragraph [ref=e972]: 스킨푸드
+                        - link "[총100매] 패드 60매 당근&감자&미나리 외 (30매리필+패드2매입5개 증정)" [ref=e973] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3802517
+                          - paragraph [ref=e974]: "[총100매] 패드 60매 당근&감자&미나리 외 (30매리필+패드2매입5개 증정)"
+                        - generic [ref=e975]:
+                          - generic [ref=e976]: 21%
+                          - generic [ref=e978]: 20,540원
+                    - generic [ref=e979]:
+                      - generic [ref=e980]:
+                        - link "[증정] 무향 100시간 보습 세라마이드 아토 로션 564ml 2입" [ref=e981] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3735818
+                        - button "좋아요" [ref=e983] [cursor=pointer]:
+                          - img [ref=e984]
+                      - generic [ref=e986]:
+                        - link "일리윤" [ref=e987] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/illiyoon
+                          - paragraph [ref=e988]: 일리윤
+                        - link "[증정] 무향 100시간 보습 세라마이드 아토 로션 564ml 2입" [ref=e989] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/3735818
+                          - paragraph [ref=e990]: "[증정] 무향 100시간 보습 세라마이드 아토 로션 564ml 2입"
+                        - generic [ref=e991]:
+                          - generic [ref=e992]: 34%
+                          - generic [ref=e994]: 34,560원
+                - button [ref=e995] [cursor=pointer]:
+                  - img [ref=e996]
+          - generic [ref=e1000]:
+            - generic [ref=e1001]:
+              - heading "오직 무신사 뷰티" [level=3] [ref=e1004]
+              - generic [ref=e1006]:
+                - generic [ref=e1008]:
+                  - link "에뛰드 헤어 섀도우 & 헤어카라 픽서 기획 단독 선 론칭" [ref=e1009] [cursor=pointer]:
+                    - /url: https://www.musinsa.com/content/1483740712329172146
+                    - img [ref=e1011]
+                    - generic [ref=e1012]:
+                      - generic [ref=e1013]: 에뛰드
+                      - generic [ref=e1014]: 헤어 섀도우 & 헤어카라 픽서 기획 단독 선 론칭
+                  - generic [ref=e1015]:
+                    - generic [ref=e1016]:
+                      - generic [ref=e1017]:
+                        - link "립 앤 아이리무버 대용량 250ml" [ref=e1018] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2505253
+                          - img [ref=e1020]
+                        - button "좋아요" [ref=e1021] [cursor=pointer]:
+                          - img [ref=e1022]
+                      - generic [ref=e1024]:
+                        - link "에뛰드" [ref=e1025] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/etude
+                          - paragraph [ref=e1026]: 에뛰드
+                        - link "립 앤 아이리무버 대용량 250ml" [ref=e1027] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2505253
+                          - paragraph [ref=e1028]: 립 앤 아이리무버 대용량 250ml
+                        - generic [ref=e1029]:
+                          - generic [ref=e1030]: 30%
+                          - generic [ref=e1032]: 9,100원
+                    - generic [ref=e1033]:
+                      - generic [ref=e1034]:
+                        - link "클라우드 필터 쿠션 미니쿠션 기획세트(+리필 2개 증정)" [ref=e1035] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5860300
+                          - img [ref=e1037]
+                        - button "좋아요" [ref=e1038] [cursor=pointer]:
+                          - img [ref=e1039]
+                      - generic [ref=e1041]:
+                        - link "에뛰드" [ref=e1042] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/etude
+                          - paragraph [ref=e1043]: 에뛰드
+                        - link "클라우드 필터 쿠션 미니쿠션 기획세트(+리필 2개 증정)" [ref=e1044] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5860300
+                          - paragraph [ref=e1045]: 클라우드 필터 쿠션 미니쿠션 기획세트(+리필 2개 증정)
+                        - generic [ref=e1046]:
+                          - generic [ref=e1047]: 30%
+                          - generic [ref=e1049]: 23,800원
+                    - generic [ref=e1050]:
+                      - generic [ref=e1051]:
+                        - link "[Cafe in the deep] 왓츠 인 마이 아이즈 더블" [ref=e1052] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5484171
+                          - img [ref=e1054]
+                        - button "좋아요" [ref=e1055] [cursor=pointer]:
+                          - img [ref=e1056]
+                      - generic [ref=e1058]:
+                        - link "에뛰드" [ref=e1059] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/etude
+                          - paragraph [ref=e1060]: 에뛰드
+                        - link "[Cafe in the deep] 왓츠 인 마이 아이즈 더블" [ref=e1061] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5484171
+                          - paragraph [ref=e1062]: "[Cafe in the deep] 왓츠 인 마이 아이즈 더블"
+                        - generic [ref=e1063]:
+                          - generic [ref=e1064]: 40%
+                          - generic [ref=e1066]: 4,800원
+                - generic [ref=e1068]:
+                  - link "루나 신규 글로스 & 치크 단독 선발매" [ref=e1069] [cursor=pointer]:
+                    - /url: https://www.musinsa.com/content/1488779566998280917
+                    - img [ref=e1071]
+                    - generic [ref=e1072]:
+                      - generic [ref=e1073]: 루나
+                      - generic [ref=e1074]: 신규 글로스 & 치크 단독 선발매
+                  - generic [ref=e1075]:
+                    - generic [ref=e1076]:
+                      - generic [ref=e1077]:
+                        - link "[2PACK] 버블링 껌 글로스(+라이팅 섀도우 증정)" [ref=e1078] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5663813
+                          - img [ref=e1080]
+                        - button "좋아요" [ref=e1081] [cursor=pointer]:
+                          - img [ref=e1082]
+                      - generic [ref=e1084]:
+                        - link "루나" [ref=e1085] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/lunabeauty
+                          - paragraph [ref=e1086]: 루나
+                        - link "[2PACK] 버블링 껌 글로스(+라이팅 섀도우 증정)" [ref=e1087] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5663813
+                          - paragraph [ref=e1088]: "[2PACK] 버블링 껌 글로스(+라이팅 섀도우 증정)"
+                        - generic [ref=e1089]:
+                          - generic [ref=e1090]: 30%
+                          - generic [ref=e1092]: 19,500원
+                    - generic [ref=e1093]:
+                      - generic [ref=e1094]:
+                        - link "롱래스팅 컨실 쿠션(단품)" [ref=e1095] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6095698
+                          - img [ref=e1097]
+                        - button "좋아요" [ref=e1098] [cursor=pointer]:
+                          - img [ref=e1099]
+                      - generic [ref=e1101]:
+                        - link "루나" [ref=e1102] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/lunabeauty
+                          - paragraph [ref=e1103]: 루나
+                        - link "롱래스팅 컨실 쿠션(단품)" [ref=e1104] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6095698
+                          - paragraph [ref=e1105]: 롱래스팅 컨실 쿠션(단품)
+                        - generic [ref=e1106]:
+                          - generic [ref=e1107]: 26%
+                          - generic [ref=e1109]: 25,000원
+                    - generic [ref=e1110]:
+                      - generic [ref=e1111]:
+                        - link "글로우 레이어 블러 치크" [ref=e1112] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4557972
+                          - img [ref=e1114]
+                        - button "좋아요" [ref=e1115] [cursor=pointer]:
+                          - img [ref=e1116]
+                      - generic [ref=e1118]:
+                        - link "루나" [ref=e1119] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/lunabeauty
+                          - paragraph [ref=e1120]: 루나
+                        - link "글로우 레이어 블러 치크" [ref=e1121] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4557972
+                          - paragraph [ref=e1122]: 글로우 레이어 블러 치크
+                        - generic [ref=e1123]:
+                          - generic [ref=e1124]: 30%
+                          - generic [ref=e1126]: 15,300원
+                - generic [ref=e1128]:
+                  - link "정샘물 악마프2 에디션 단독 선발매" [ref=e1129] [cursor=pointer]:
+                    - /url: https://www.musinsa.com/content/1488003813617951691
+                    - img [ref=e1131]
+                    - generic [ref=e1132]:
+                      - generic [ref=e1133]: 정샘물
+                      - generic [ref=e1134]: 악마프2 에디션 단독 선발매
+                  - generic [ref=e1135]:
+                    - generic [ref=e1136]:
+                      - generic [ref=e1137]:
+                        - link "[정샘물 l 악마프2 에디션] 아티스트 쿠션 블러쉬 블러 (+GIFT)" [ref=e1138] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5324478
+                          - img [ref=e1140]
+                        - button "좋아요" [ref=e1141] [cursor=pointer]:
+                          - img [ref=e1142]
+                      - generic [ref=e1144]:
+                        - link "정샘물" [ref=e1145] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/jsm
+                          - paragraph [ref=e1146]: 정샘물
+                        - link "[정샘물 l 악마프2 에디션] 아티스트 쿠션 블러쉬 블러 (+GIFT)" [ref=e1147] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5324478
+                          - paragraph [ref=e1148]: "[정샘물 l 악마프2 에디션] 아티스트 쿠션 블러쉬 블러 (+GIFT)"
+                        - generic [ref=e1149]:
+                          - generic [ref=e1150]: 23%
+                          - generic [ref=e1152]: 16,940원
+                    - generic [ref=e1153]:
+                      - generic [ref=e1154]:
+                        - link "[정샘물 l 악마프2 에디션] 에센셜 스킨 누더 쿠션 (리필포함)(쿠션 케이스 커버 증정)" [ref=e1155] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6204571
+                          - img [ref=e1157]
+                        - button "좋아요" [ref=e1158] [cursor=pointer]:
+                          - img [ref=e1159]
+                      - generic [ref=e1161]:
+                        - link "정샘물" [ref=e1162] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/jsm
+                          - paragraph [ref=e1163]: 정샘물
+                        - link "[정샘물 l 악마프2 에디션] 에센셜 스킨 누더 쿠션 (리필포함)(쿠션 케이스 커버 증정)" [ref=e1164] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6204571
+                          - paragraph [ref=e1165]: "[정샘물 l 악마프2 에디션] 에센셜 스킨 누더 쿠션 (리필포함)(쿠션 케이스 커버 증정)"
+                        - generic [ref=e1166]:
+                          - generic [ref=e1167]: 23%
+                          - generic [ref=e1169]: 36,960원
+                    - generic [ref=e1170]:
+                      - generic [ref=e1171]:
+                        - link "[정샘물 l 악마프2 에디션][한정300매 영화 티켓 증정] 매니아 FULL SET (쿠션+메탈립+미스트+물크림+블러쉬)(4종 미니어처 증정)" [ref=e1172] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6200486
+                          - img [ref=e1174]
+                        - button "좋아요" [ref=e1175] [cursor=pointer]:
+                          - img [ref=e1176]
+                      - generic [ref=e1178]:
+                        - link "정샘물" [ref=e1179] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/jsm
+                          - paragraph [ref=e1180]: 정샘물
+                        - link "[정샘물 l 악마프2 에디션][한정300매 영화 티켓 증정] 매니아 FULL SET (쿠션+메탈립+미스트+물크림+블러쉬)(4종 미니어처 증정)" [ref=e1181] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6200486
+                          - paragraph [ref=e1182]: "[정샘물 l 악마프2 에디션][한정300매 영화 티켓 증정] 매니아 FULL SET (쿠션+메탈립+미스트+물크림+블러쉬)(4종 미니어처 증정)"
+                        - generic [ref=e1183]:
+                          - generic [ref=e1184]: 34%
+                          - generic [ref=e1186]: 99,000원
+                - generic [ref=e1188]:
+                  - link "헤라 블랙쿠션 기획전 | 단독 사은품" [ref=e1189] [cursor=pointer]:
+                    - /url: https://www.musinsa.com/content/1483762080548805234
+                    - generic [ref=e1191]:
+                      - generic [ref=e1192]: 헤라
+                      - generic [ref=e1193]: 블랙쿠션 기획전 | 단독 사은품
+                  - generic [ref=e1194]:
+                    - generic [ref=e1195]:
+                      - generic [ref=e1196]:
+                        - link "실키 스테이 24H 롱웨어 파운데이션 SPF20/PA++ 30g (옵션)" [ref=e1197] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2538178
+                        - button "좋아요" [ref=e1199] [cursor=pointer]:
+                          - img [ref=e1200]
+                      - generic [ref=e1202]:
+                        - link "헤라" [ref=e1203] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/hera
+                          - paragraph [ref=e1204]: 헤라
+                        - link "실키 스테이 24H 롱웨어 파운데이션 SPF20/PA++ 30g (옵션)" [ref=e1205] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2538178
+                          - paragraph [ref=e1206]: 실키 스테이 24H 롱웨어 파운데이션 SPF20/PA++ 30g (옵션)
+                        - generic [ref=e1207]:
+                          - generic [ref=e1208]: 19%
+                          - generic [ref=e1210]: 56,680원
+                    - generic [ref=e1211]:
+                      - generic [ref=e1212]:
+                        - link "센슈얼 누드 밤 3.5g" [ref=e1213] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2996835
+                        - button "좋아요" [ref=e1215] [cursor=pointer]:
+                          - img [ref=e1216]
+                      - generic [ref=e1218]:
+                        - link "헤라" [ref=e1219] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/hera
+                          - paragraph [ref=e1220]: 헤라
+                        - link "센슈얼 누드 밤 3.5g" [ref=e1221] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/2996835
+                          - paragraph [ref=e1222]: 센슈얼 누드 밤 3.5g
+                        - generic [ref=e1223]:
+                          - generic [ref=e1224]: 19%
+                          - generic [ref=e1226]: 32,470원
+                    - generic [ref=e1227]:
+                      - generic [ref=e1228]:
+                        - link "리플렉션 스킨 글로우 쿠션 파운데이션 15g" [ref=e1229] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4678489
+                        - button "좋아요" [ref=e1231] [cursor=pointer]:
+                          - img [ref=e1232]
+                      - generic [ref=e1234]:
+                        - link "헤라" [ref=e1235] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/hera
+                          - paragraph [ref=e1236]: 헤라
+                        - link "리플렉션 스킨 글로우 쿠션 파운데이션 15g" [ref=e1237] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4678489
+                          - paragraph [ref=e1238]: 리플렉션 스킨 글로우 쿠션 파운데이션 15g
+                        - generic [ref=e1239]:
+                          - generic [ref=e1240]: 19%
+                          - generic [ref=e1242]: 48,580원
+                - generic [ref=e1244]:
+                  - link "비오템 단독 사은품" [ref=e1245] [cursor=pointer]:
+                    - /url: https://www.musinsa.com/content/1483761417343097502
+                    - generic [ref=e1247]:
+                      - generic [ref=e1248]: 비오템
+                      - generic [ref=e1249]: 단독 사은품
+                  - generic [ref=e1250]:
+                    - generic [ref=e1251]:
+                      - generic [ref=e1252]:
+                        - link "포스 수프림 라이프 필 에센스 150ml 세트(+필 에센스 60ml+파우치)" [ref=e1253] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5343569
+                        - button "좋아요" [ref=e1255] [cursor=pointer]:
+                          - img [ref=e1256]
+                      - generic [ref=e1258]:
+                        - link "비오템" [ref=e1259] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/biotherm
+                          - paragraph [ref=e1260]: 비오템
+                        - link "포스 수프림 라이프 필 에센스 150ml 세트(+필 에센스 60ml+파우치)" [ref=e1261] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5343569
+                          - paragraph [ref=e1262]: 포스 수프림 라이프 필 에센스 150ml 세트(+필 에센스 60ml+파우치)
+                        - generic [ref=e1263]:
+                          - generic [ref=e1264]: 26%
+                          - generic [ref=e1266]: 93,480원
+                    - generic [ref=e1267]:
+                      - generic [ref=e1268]:
+                        - link "아쿠아파워 어드밴스드 젤 로션 PRO 100ml 세트(+아쿠아파워 클렌저 40ml, 젤 PRO 20ml)" [ref=e1269] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5341004
+                        - button "좋아요" [ref=e1271] [cursor=pointer]:
+                          - img [ref=e1272]
+                      - generic [ref=e1274]:
+                        - link "비오템" [ref=e1275] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/biotherm
+                          - paragraph [ref=e1276]: 비오템
+                        - link "아쿠아파워 어드밴스드 젤 로션 PRO 100ml 세트(+아쿠아파워 클렌저 40ml, 젤 PRO 20ml)" [ref=e1277] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5341004
+                          - paragraph [ref=e1278]: 아쿠아파워 어드밴스드 젤 로션 PRO 100ml 세트(+아쿠아파워 클렌저 40ml, 젤 PRO 20ml)
+                        - generic [ref=e1279]:
+                          - generic [ref=e1280]: 24%
+                          - generic [ref=e1282]: 69,920원
+                    - generic [ref=e1283]:
+                      - generic [ref=e1284]:
+                        - link "오 비타미네 바디미스트 100ml 세트(+오 비타미네 핸드크림 20ml, 바디밀크 50ml)" [ref=e1285] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5589955
+                        - button "좋아요" [ref=e1287] [cursor=pointer]:
+                          - img [ref=e1288]
+                      - generic [ref=e1290]:
+                        - link "비오템" [ref=e1291] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/biotherm
+                          - paragraph [ref=e1292]: 비오템
+                        - link "오 비타미네 바디미스트 100ml 세트(+오 비타미네 핸드크림 20ml, 바디밀크 50ml)" [ref=e1293] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5589955
+                          - paragraph [ref=e1294]: 오 비타미네 바디미스트 100ml 세트(+오 비타미네 핸드크림 20ml, 바디밀크 50ml)
+                        - generic [ref=e1295]:
+                          - generic [ref=e1296]: 24%
+                          - generic [ref=e1298]: 43,320원
+                - generic [ref=e1300]:
+                  - link "무신사 스탠다드 뷰티 노홍철 컬래버 향수 단독 발매" [ref=e1301] [cursor=pointer]:
+                    - /url: https://www.musinsa.com/content/1491665999308215026
+                    - generic [ref=e1303]:
+                      - generic [ref=e1304]: 무신사 스탠다드 뷰티
+                      - generic [ref=e1305]: 노홍철 컬래버 향수 단독 발매
+                  - generic [ref=e1306]:
+                    - generic [ref=e1307]:
+                      - generic [ref=e1308]:
+                        - link "무신사 스탠다드 시어 EDP 50ml" [ref=e1309] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5357869
+                        - button "좋아요" [ref=e1311] [cursor=pointer]:
+                          - img [ref=e1312]
+                      - generic [ref=e1314]:
+                        - link "무신사 스탠다드 뷰티" [ref=e1315] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/musinsastandardbt
+                          - paragraph [ref=e1316]: 무신사 스탠다드 뷰티
+                        - link "무신사 스탠다드 시어 EDP 50ml" [ref=e1317] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5357869
+                          - paragraph [ref=e1318]: 무신사 스탠다드 시어 EDP 50ml
+                        - generic [ref=e1319]:
+                          - generic [ref=e1320]: 20%
+                          - generic [ref=e1322]: 39,900원
+                    - generic [ref=e1323]:
+                      - generic [ref=e1324]:
+                        - link "무신사 스탠다드 스모크 오우드 EDP 50ml" [ref=e1325] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4388018
+                        - button "좋아요" [ref=e1327] [cursor=pointer]:
+                          - img [ref=e1328]
+                      - generic [ref=e1330]:
+                        - link "무신사 스탠다드 뷰티" [ref=e1331] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/musinsastandardbt
+                          - paragraph [ref=e1332]: 무신사 스탠다드 뷰티
+                        - link "무신사 스탠다드 스모크 오우드 EDP 50ml" [ref=e1333] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/4388018
+                          - paragraph [ref=e1334]: 무신사 스탠다드 스모크 오우드 EDP 50ml
+                        - generic [ref=e1335]:
+                          - generic [ref=e1336]: 20%
+                          - generic [ref=e1338]: 39,900원
+                    - generic [ref=e1339]:
+                      - generic [ref=e1340]:
+                        - link "무신사 스탠다드 미드나잇 램블러 EDP 50ml" [ref=e1341] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5357868
+                        - button "좋아요" [ref=e1343] [cursor=pointer]:
+                          - img [ref=e1344]
+                      - generic [ref=e1346]:
+                        - link "무신사 스탠다드 뷰티" [ref=e1347] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/musinsastandardbt
+                          - paragraph [ref=e1348]: 무신사 스탠다드 뷰티
+                        - link "무신사 스탠다드 미드나잇 램블러 EDP 50ml" [ref=e1349] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5357868
+                          - paragraph [ref=e1350]: 무신사 스탠다드 미드나잇 램블러 EDP 50ml
+                        - generic [ref=e1351]:
+                          - generic [ref=e1352]: 20%
+                          - generic [ref=e1354]: 39,900원
+                - generic [ref=e1356]:
+                  - link "어덴비 폴리쉬 오일 선발매" [ref=e1357] [cursor=pointer]:
+                    - /url: https://www.musinsa.com/content/1490634432201892451
+                    - generic [ref=e1359]:
+                      - generic [ref=e1360]: 어덴비
+                      - generic [ref=e1361]: 폴리쉬 오일 선발매
+                  - generic [ref=e1362]:
+                    - generic [ref=e1363]:
+                      - generic [ref=e1364]:
+                        - link "[시그니처 홈케어] 집중케어 2종 기획세트" [ref=e1365] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5752814
+                        - button "좋아요" [ref=e1367] [cursor=pointer]:
+                          - img [ref=e1368]
+                      - generic [ref=e1370]:
+                        - link "어덴비" [ref=e1371] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/athanbe
+                          - paragraph [ref=e1372]: 어덴비
+                        - link "[시그니처 홈케어] 집중케어 2종 기획세트" [ref=e1373] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5752814
+                          - paragraph [ref=e1374]: "[시그니처 홈케어] 집중케어 2종 기획세트"
+                        - generic [ref=e1375]:
+                          - generic [ref=e1376]: 41%
+                          - generic [ref=e1378]: 40,370원
+                    - generic [ref=e1379]:
+                      - generic [ref=e1380]:
+                        - link "집중케어 세트 + 블랙라벨 폴리쉬 오일 145ml" [ref=e1381] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6056293
+                        - button "좋아요" [ref=e1383] [cursor=pointer]:
+                          - img [ref=e1384]
+                      - generic [ref=e1386]:
+                        - link "어덴비" [ref=e1387] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/athanbe
+                          - paragraph [ref=e1388]: 어덴비
+                        - link "집중케어 세트 + 블랙라벨 폴리쉬 오일 145ml" [ref=e1389] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6056293
+                          - paragraph [ref=e1390]: 집중케어 세트 + 블랙라벨 폴리쉬 오일 145ml
+                        - generic [ref=e1391]:
+                          - generic [ref=e1392]: 49%
+                          - generic [ref=e1394]: 53,550원
+                    - generic [ref=e1395]:
+                      - generic [ref=e1396]:
+                        - link "블랙 라벨 폴리쉬 오일 145ml" [ref=e1397] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6052592
+                        - button "좋아요" [ref=e1399] [cursor=pointer]:
+                          - img [ref=e1400]
+                      - generic [ref=e1402]:
+                        - link "어덴비" [ref=e1403] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/athanbe
+                          - paragraph [ref=e1404]: 어덴비
+                        - link "블랙 라벨 폴리쉬 오일 145ml" [ref=e1405] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6052592
+                          - paragraph [ref=e1406]: 블랙 라벨 폴리쉬 오일 145ml
+                        - generic [ref=e1407]:
+                          - generic [ref=e1408]: 37%
+                          - generic [ref=e1410]: 22,680원
+                        - paragraph [ref=e1411]: 옵션비 별도
+                - generic [ref=e1413]:
+                  - link "원씽 토닝 선세럼 선발매" [ref=e1414] [cursor=pointer]:
+                    - /url: https://www.musinsa.com/content/1481894564033230836
+                    - generic [ref=e1416]:
+                      - generic [ref=e1417]: 원씽
+                      - generic [ref=e1418]: 토닝 선세럼 선발매
+                  - generic [ref=e1419]:
+                    - generic [ref=e1420]:
+                      - generic [ref=e1421]:
+                        - link "[미니토너 30ml 증정] 나이아신아마이드 글루타치온 미스트 100ml" [ref=e1422] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6268082
+                        - button "좋아요" [ref=e1424] [cursor=pointer]:
+                          - img [ref=e1425]
+                      - generic [ref=e1427]:
+                        - link "원씽" [ref=e1428] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/onething
+                          - paragraph [ref=e1429]: 원씽
+                        - link "[미니토너 30ml 증정] 나이아신아마이드 글루타치온 미스트 100ml" [ref=e1430] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6268082
+                          - paragraph [ref=e1431]: "[미니토너 30ml 증정] 나이아신아마이드 글루타치온 미스트 100ml"
+                        - generic [ref=e1432]:
+                          - generic [ref=e1433]: 21%
+                          - generic [ref=e1435]: 18,900원
+                    - generic [ref=e1436]:
+                      - generic [ref=e1437]:
+                        - link "[미니토너30ml 증정 ] 나이아신아마이드 글루타치온 선세럼 55ml SPF50+ PA++++, 2 PACK" [ref=e1438] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6266685
+                        - button "좋아요" [ref=e1440] [cursor=pointer]:
+                          - img [ref=e1441]
+                      - generic [ref=e1443]:
+                        - link "원씽" [ref=e1444] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/onething
+                          - paragraph [ref=e1445]: 원씽
+                        - link "[미니토너30ml 증정 ] 나이아신아마이드 글루타치온 선세럼 55ml SPF50+ PA++++, 2 PACK" [ref=e1446] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6266685
+                          - paragraph [ref=e1447]: "[미니토너30ml 증정 ] 나이아신아마이드 글루타치온 선세럼 55ml SPF50+ PA++++, 2 PACK"
+                        - generic [ref=e1448]:
+                          - generic [ref=e1449]: 60%
+                          - generic [ref=e1451]: 19,900원
+                    - generic [ref=e1452]:
+                      - generic [ref=e1453]:
+                        - link "나이아신아마이드 글루타치온 크림 40ml" [ref=e1454] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5131936
+                        - button "좋아요" [ref=e1456] [cursor=pointer]:
+                          - img [ref=e1457]
+                      - generic [ref=e1459]:
+                        - link "원씽" [ref=e1460] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/onething
+                          - paragraph [ref=e1461]: 원씽
+                        - link "나이아신아마이드 글루타치온 크림 40ml" [ref=e1462] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5131936
+                          - paragraph [ref=e1463]: 나이아신아마이드 글루타치온 크림 40ml
+                        - generic [ref=e1464]:
+                          - generic [ref=e1465]: 30%
+                          - generic [ref=e1467]: 20,900원
+                - generic [ref=e1469]:
+                  - link "에스쁘아 실크 스킨 레이어 쿠션 발매 | 단독 구성 & 할인" [ref=e1470] [cursor=pointer]:
+                    - /url: https://www.musinsa.com/content/1488043755714896252
+                    - generic [ref=e1472]:
+                      - generic [ref=e1473]: 에스쁘아
+                      - generic [ref=e1474]: 실크 스킨 레이어 쿠션 발매 | 단독 구성 & 할인
+                  - generic [ref=e1475]:
+                    - generic [ref=e1476]:
+                      - generic [ref=e1477]:
+                        - link "NEW 비벨벳 파운데이션 SPF22 PA++(+증정:선크림 세라마이드 20ml)" [ref=e1478] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5028305
+                        - button "좋아요" [ref=e1480] [cursor=pointer]:
+                          - img [ref=e1481]
+                      - generic [ref=e1483]:
+                        - link "에스쁘아" [ref=e1484] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/espoir
+                          - paragraph [ref=e1485]: 에스쁘아
+                        - link "NEW 비벨벳 파운데이션 SPF22 PA++(+증정:선크림 세라마이드 20ml)" [ref=e1486] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/5028305
+                          - paragraph [ref=e1487]: NEW 비벨벳 파운데이션 SPF22 PA++(+증정:선크림 세라마이드 20ml)
+                        - generic [ref=e1488]:
+                          - generic [ref=e1489]: 34%
+                          - generic [ref=e1491]: 27,720원
+                    - generic [ref=e1492]:
+                      - generic [ref=e1493]:
+                        - 'link "블러 웨어 블러쉬(+증정: 파우더 블렌더)" [ref=e1494] [cursor=pointer]':
+                          - /url: https://www.musinsa.com/products/6088035
+                        - button "좋아요" [ref=e1496] [cursor=pointer]:
+                          - img [ref=e1497]
+                      - generic [ref=e1499]:
+                        - link "에스쁘아" [ref=e1500] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/espoir
+                          - paragraph [ref=e1501]: 에스쁘아
+                        - 'link "블러 웨어 블러쉬(+증정: 파우더 블렌더)" [ref=e1502] [cursor=pointer]':
+                          - /url: https://www.musinsa.com/products/6088035
+                          - paragraph [ref=e1503]: "블러 웨어 블러쉬(+증정: 파우더 블렌더)"
+                        - generic [ref=e1504]:
+                          - generic [ref=e1505]: 28%
+                          - generic [ref=e1507]: 18,000원
+                    - generic [ref=e1508]:
+                      - generic [ref=e1509]:
+                        - link "실크 스킨 레이어 쿠션" [ref=e1510] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6087884
+                        - button "좋아요" [ref=e1512] [cursor=pointer]:
+                          - img [ref=e1513]
+                      - generic [ref=e1515]:
+                        - link "에스쁘아" [ref=e1516] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/brand/espoir
+                          - paragraph [ref=e1517]: 에스쁘아
+                        - link "실크 스킨 레이어 쿠션" [ref=e1518] [cursor=pointer]:
+                          - /url: https://www.musinsa.com/products/6087884
+                          - paragraph [ref=e1519]: 실크 스킨 레이어 쿠션
+                        - generic [ref=e1520]:
+                          - generic [ref=e1521]: 28%
+                          - generic [ref=e1523]: 20,880원
+            - generic [ref=e1524]:
+              - heading "지금 주목할 만한 브랜드" [level=3] [ref=e1527]
+              - generic [ref=e1528]:
+                - generic [ref=e1529]:
+                  - generic [ref=e1530]:
+                    - link "셀렉스" [ref=e1531] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/selex
+                      - img [ref=e1534]
+                      - generic [ref=e1535]: 셀렉스
+                    - link "무신사 스탠다드 뷰티" [ref=e1536] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/musinsastandardbt
+                      - img [ref=e1539]
+                      - generic [ref=e1540]: 무신사 스탠다드 뷰티
+                    - link "헤라" [ref=e1541] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/hera
+                      - img [ref=e1544]
+                      - generic [ref=e1545]: 헤라
+                  - generic [ref=e1546]:
+                    - link "보다나" [ref=e1547] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/vodana
+                      - img [ref=e1550]
+                      - generic [ref=e1551]: 보다나
+                    - link "정샘물" [ref=e1552] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/jsm
+                      - img [ref=e1555]
+                      - generic [ref=e1556]: 정샘물
+                    - link "비비앙" [ref=e1557] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/bibiang
+                      - img [ref=e1560]
+                      - generic [ref=e1561]: 비비앙
+                  - generic [ref=e1562]:
+                    - link "에스트라" [ref=e1563] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/aestura
+                      - img [ref=e1566]
+                      - generic [ref=e1567]: 에스트라
+                    - link "오드타입" [ref=e1568] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/oddtype
+                      - img [ref=e1571]
+                      - generic [ref=e1572]: 오드타입
+                    - link "익스트림" [ref=e1573] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/extreme
+                      - img [ref=e1576]
+                      - generic [ref=e1577]: 익스트림
+                  - generic [ref=e1578]:
+                    - link "바닐라코" [ref=e1579] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/banilaco
+                      - img [ref=e1582]
+                      - generic [ref=e1583]: 바닐라코
+                    - link "라피타" [ref=e1584] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/lapitta
+                      - img [ref=e1587]
+                      - generic [ref=e1588]: 라피타
+                    - link "다슈" [ref=e1589] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/dashu
+                      - img [ref=e1592]
+                      - generic [ref=e1593]: 다슈
+                  - generic [ref=e1594]:
+                    - link "롬앤" [ref=e1595] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/romand
+                      - img [ref=e1598]
+                      - generic [ref=e1599]: 롬앤
+                    - link "닥터지" [ref=e1600] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/drg
+                      - img [ref=e1603]
+                      - generic [ref=e1604]: 닥터지
+                    - link "루나" [ref=e1605] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/lunabeauty
+                      - img [ref=e1608]
+                      - generic [ref=e1609]: 루나
+                  - generic [ref=e1610]:
+                    - link "토리든" [ref=e1611] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/torriden
+                      - img [ref=e1614]
+                      - generic [ref=e1615]: 토리든
+                    - link "에이에이치씨" [ref=e1616] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/ahc1
+                      - img [ref=e1619]
+                      - generic [ref=e1620]: 에이에이치씨
+                    - link "오브제" [ref=e1621] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/obge
+                      - img [ref=e1624]
+                      - generic [ref=e1625]: 오브제
+                  - generic [ref=e1626]:
+                    - link "디마프" [ref=e1627] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/demaf
+                      - img [ref=e1630]
+                      - generic [ref=e1631]: 디마프
+                    - link "코스알엑스" [ref=e1632] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/cosrx
+                      - img [ref=e1635]
+                      - generic [ref=e1636]: 코스알엑스
+                    - link "제이엠더블유" [ref=e1637] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/jmw
+                      - img [ref=e1640]
+                      - generic [ref=e1641]: 제이엠더블유
+                  - generic [ref=e1642]:
+                    - link "설화수" [ref=e1643] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/sulwhasoo
+                      - img [ref=e1646]
+                      - generic [ref=e1647]: 설화수
+                    - link "키미" [ref=e1648] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/kimmy
+                      - img [ref=e1651]
+                      - generic [ref=e1652]: 키미
+                    - link "홀리카홀리카" [ref=e1653] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/holikaholika
+                      - img [ref=e1656]
+                      - generic [ref=e1657]: 홀리카홀리카
+                  - generic [ref=e1658]:
+                    - link "일리윤" [ref=e1659] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/illiyoon
+                      - img [ref=e1662]
+                      - generic [ref=e1663]: 일리윤
+                    - link "라운드랩" [ref=e1664] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/roundlab
+                      - img [ref=e1667]
+                      - generic [ref=e1668]: 라운드랩
+                    - link "삐아" [ref=e1669] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/bbia
+                      - img [ref=e1672]
+                      - generic [ref=e1673]: 삐아
+                  - generic [ref=e1674]:
+                    - link "클리오" [ref=e1675] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/clio
+                      - img [ref=e1678]
+                      - generic [ref=e1679]: 클리오
+                    - link "어바웃톤" [ref=e1680] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/abouttone
+                      - img [ref=e1683]
+                      - generic [ref=e1684]: 어바웃톤
+                    - link "에스네이처" [ref=e1685] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/snature
+                      - img [ref=e1688]
+                      - generic [ref=e1689]: 에스네이처
+                  - generic [ref=e1690]:
+                    - link "에뛰드" [ref=e1691] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/etude
+                      - img [ref=e1694]
+                      - generic [ref=e1695]: 에뛰드
+                    - link "글램팜" [ref=e1696] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/glampalm
+                      - img [ref=e1699]
+                      - generic [ref=e1700]: 글램팜
+                    - link "뷰앤디" [ref=e1701] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/beaund
+                      - img [ref=e1704]
+                      - generic [ref=e1705]: 뷰앤디
+                  - generic [ref=e1706]:
+                    - link "메종 마르지엘라 퍼퓸" [ref=e1707] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/maisonmargielaperfume
+                      - img [ref=e1710]
+                      - generic [ref=e1711]: 메종 마르지엘라 퍼퓸
+                    - link "에스쁘아" [ref=e1712] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/espoir
+                      - img [ref=e1715]
+                      - generic [ref=e1716]: 에스쁘아
+                    - link "페리페라" [ref=e1717] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/peripera
+                      - img [ref=e1720]
+                      - generic [ref=e1721]: 페리페라
+                  - generic [ref=e1722]:
+                    - link "비플레인" [ref=e1723] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/beplain
+                      - img [ref=e1726]
+                      - generic [ref=e1727]: 비플레인
+                    - link "이니스프리" [ref=e1728] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/innisfree
+                      - img [ref=e1731]
+                      - generic [ref=e1732]: 이니스프리
+                    - link "셀퓨전씨" [ref=e1733] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/cellfusionc
+                      - img [ref=e1736]
+                      - generic [ref=e1737]: 셀퓨전씨
+                  - generic [ref=e1738]:
+                    - link "러쉬" [ref=e1739] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/lush
+                      - img [ref=e1742]
+                      - generic [ref=e1743]: 러쉬
+                    - link "태오앤더" [ref=e1744] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/teoandthe
+                      - img [ref=e1747]
+                      - generic [ref=e1748]: 태오앤더
+                    - link "스킨푸드" [ref=e1749] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/skinfood
+                      - img [ref=e1752]
+                      - generic [ref=e1753]: 스킨푸드
+                  - generic [ref=e1754]:
+                    - link "테이크핏" [ref=e1755] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/takefit
+                      - img [ref=e1758]
+                      - generic [ref=e1759]: 테이크핏
+                    - link "퐁당" [ref=e1760] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/pongdang
+                      - img [ref=e1763]
+                      - generic [ref=e1764]: 퐁당
+                    - link "디오디너리" [ref=e1765] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/theordinary
+                      - img [ref=e1768]
+                      - generic [ref=e1769]: 디오디너리
+                  - generic [ref=e1770]:
+                    - link "포뷰트" [ref=e1771] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/forbeaut
+                      - img [ref=e1774]
+                      - generic [ref=e1775]: 포뷰트
+                    - link "에스더블유나인틴" [ref=e1776] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/sw19
+                      - img [ref=e1779]
+                      - generic [ref=e1780]: 에스더블유나인틴
+                    - link "투쿨포스쿨" [ref=e1781] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/toocoolforschool
+                      - img [ref=e1784]
+                      - generic [ref=e1785]: 투쿨포스쿨
+                  - generic [ref=e1786]:
+                    - link "보나메두사" [ref=e1787] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/bonamedusa
+                      - img [ref=e1790]
+                      - generic [ref=e1791]: 보나메두사
+                    - link "오프라 코스메틱" [ref=e1792] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/ofracosmetic
+                      - img [ref=e1795]
+                      - generic [ref=e1796]: 오프라 코스메틱
+                    - link "메디힐" [ref=e1797] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/mediheal
+                      - img [ref=e1800]
+                      - generic [ref=e1801]: 메디힐
+                  - generic [ref=e1802]:
+                    - link "미샤" [ref=e1803] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/missha
+                      - img [ref=e1806]
+                      - generic [ref=e1807]: 미샤
+                    - link "시머스" [ref=e1808] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/seamus
+                      - img [ref=e1811]
+                      - generic [ref=e1812]: 시머스
+                    - link "클린" [ref=e1813] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/clean
+                      - img [ref=e1816]
+                      - generic [ref=e1817]: 클린
+                  - generic [ref=e1818]:
+                    - link "폴라초이스" [ref=e1819] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/paulaschoice
+                      - img [ref=e1822]
+                      - generic [ref=e1823]: 폴라초이스
+                    - link "리베르" [ref=e1824] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/liber
+                      - img [ref=e1827]
+                      - generic [ref=e1828]: 리베르
+                    - link "어네이즈" [ref=e1829] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/anaze
+                      - img [ref=e1832]
+                      - generic [ref=e1833]: 어네이즈
+                  - generic [ref=e1834]:
+                    - link "비레디" [ref=e1835] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/beready
+                      - img [ref=e1838]
+                      - generic [ref=e1839]: 비레디
+                    - link "듀이트리" [ref=e1840] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/dewytree
+                      - img [ref=e1843]
+                      - generic [ref=e1844]: 듀이트리
+                    - link "릴리바이레드" [ref=e1845] [cursor=pointer]:
+                      - /url: https://www.musinsa.com/brand/lilybyred
+                      - img [ref=e1848]
+                      - generic [ref=e1849]: 릴리바이레드
+                - button [ref=e1850] [cursor=pointer]:
+                  - img [ref=e1851]
+    - complementary:
+      - generic "빠른 작업 버튼":
+        - link "최근 본 상품 페이지로 이동" [ref=e1856] [cursor=pointer]:
+          - /url: https://www.musinsa.com/mypage/recently-viewed
+          - img [ref=e1857]
+        - generic:
+          - generic:
+            - generic:
+              - button "전체" [pressed]
+              - button "남성"
+              - button "여성"
+      - generic [ref=e1860]:
+        - button "전체" [pressed] [ref=e1861] [cursor=pointer]
+        - button "남성" [ref=e1862] [cursor=pointer]
+        - button "여성" [ref=e1863] [cursor=pointer]
+      - button "페이지 공유하기" [ref=e1864] [cursor=pointer]:
+        - img [ref=e1865]
+    - contentinfo [ref=e1867]:
+      - generic [ref=e1868]:
+        - list [ref=e1870]:
+          - listitem [ref=e1871]:
+            - link "무신사 스토어 이동" [ref=e1872] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/musinsa
+              - img "무신사" [ref=e1874]
+          - listitem [ref=e1875]:
+            - link "뷰티 스토어 이동" [ref=e1876] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/beauty
+              - img "뷰티" [ref=e1878]
+          - listitem [ref=e1879]:
+            - link "스포츠 스토어 이동" [ref=e1880] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/player
+              - img "스포츠" [ref=e1882]
+          - listitem [ref=e1883]:
+            - link "아울렛 스토어 이동" [ref=e1884] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/outlet
+              - img "아울렛" [ref=e1886]
+          - listitem [ref=e1887]:
+            - link "부티크 스토어 이동" [ref=e1888] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/boutique
+              - img "부티크" [ref=e1890]
+          - listitem [ref=e1891]:
+            - link "킥스 스토어 이동" [ref=e1892] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/sneaker
+              - img "킥스" [ref=e1894]
+          - listitem [ref=e1895]:
+            - link "키즈 스토어 이동" [ref=e1896] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/kids
+              - img "키즈" [ref=e1898]
+          - listitem [ref=e1899]:
+            - link "유즈드 스토어 이동" [ref=e1900] [cursor=pointer]:
+              - /url: https://www.musinsa.com/main/used
+              - img "유즈드" [ref=e1902]
+          - listitem [ref=e1903]:
+            - link "무신사 스탠다드 스토어 이동" [ref=e1904] [cursor=pointer]:
+              - /url: https://www.musinsa.com/brand/musinsastandard
+              - img "무신사 스탠다드" [ref=e1906]
+        - generic [ref=e1908]:
+          - generic [ref=e1910]:
+            - generic [ref=e1911]: 공지사항
+            - link "전체보기 이동" [ref=e1912] [cursor=pointer]:
+              - /url: https://www.musinsa.com/cs/notice
+              - text: 전체보기
+          - generic [ref=e1913]:
+            - link "공지사항 상세 이동" [ref=e1914] [cursor=pointer]:
+              - /url: https://www.musinsa.com/cs/notice/store/45331
+              - generic [ref=e1915]: 개인정보처리방침 개정 및 영상정보처리기기 운영관리방침 개정 내용 사전 안내 (04/21 시행)
+              - generic [ref=e1917]: 1일 전
+            - link "공지사항 상세 이동" [ref=e1918] [cursor=pointer]:
+              - /url: https://www.musinsa.com/cs/notice/store/45119
+              - generic [ref=e1919]: "[수정] 무신사 USED 상품 검수 등급 기준 변경 안내"
+              - generic [ref=e1920]: 2026.03.09
+            - link "공지사항 상세 이동" [ref=e1921] [cursor=pointer]:
+              - /url: https://www.musinsa.com/cs/notice/store/44481
+              - generic [ref=e1922]: 무신사 USED 수수료 정책 변경 안내
+              - generic [ref=e1923]: 2026.02.11
+        - generic [ref=e1925]:
+          - generic [ref=e1927]:
+            - generic [ref=e1928]: 결제 혜택
+            - link "전체보기 이동" [ref=e1929] [cursor=pointer]:
+              - /url: https://www.musinsa.com/campaign/payevent/0
+              - text: 전체보기
+          - generic [ref=e1931]:
+            - generic [ref=e1932]:
+              - img "토스페이 × 삼성카드" [ref=e1933]
+              - generic [ref=e1935]: 토스페이 × 삼성카드 15만원 이상 결제 시 5천원 할인
+            - generic [ref=e1936]:
+              - img "카카오페이 × 페이머니" [ref=e1937]
+              - generic [ref=e1939]: 카카오페이 × 페이머니 10만원 이상 결제 시 4천원 할인
+            - generic [ref=e1940]:
+              - img "무신사페이 × BC카드" [ref=e1941]
+              - generic [ref=e1943]: 무신사페이 × BC카드 10만원 이상 결제 시 4천원 할인
+            - generic [ref=e1944]:
+              - img "무신사페이 × 삼성카드" [ref=e1945]
+              - generic [ref=e1947]: 무신사페이 × 삼성카드 12만원 이상 결제 시 4천원 할인
+            - generic [ref=e1948]:
+              - img "토스페이 × 계좌" [ref=e1949]
+              - generic [ref=e1951]: 토스페이 × 계좌 8만원 이상 결제 시 3천원 할인
+          - generic [ref=e1953]:
+            - img "비자" [ref=e1955]
+            - img "마스터카드" [ref=e1957]
+            - img "무신사페이" [ref=e1959]
+            - img "토스페이" [ref=e1961]
+            - img "카카오페이" [ref=e1963]
+            - img "페이코" [ref=e1965]
+            - img "애플페이" [ref=e1967]
+            - img "KB페이" [ref=e1969]
+        - list [ref=e1970]:
+          - listitem [ref=e1971]:
+            - generic [ref=e1972]: 어바웃 무신사
+            - generic [ref=e1973]:
+              - link "회사 소개" [ref=e1974] [cursor=pointer]:
+                - /url: https://corp.musinsa.com
+              - link "비즈니스 소개" [ref=e1975] [cursor=pointer]:
+                - /url: https://corp.musinsa.com/ko/business
+              - link "지속 가능성" [ref=e1976] [cursor=pointer]:
+                - /url: https://corp.musinsa.com/ko/impact
+              - link "뉴스룸" [ref=e1977] [cursor=pointer]:
+                - /url: https://newsroom.musinsa.com/
+              - link "채용 정보" [ref=e1978] [cursor=pointer]:
+                - /url: https://www.musinsacareers.com/ko/home
+          - listitem [ref=e1979]:
+            - generic [ref=e1980]: 오프라인 스토어
+            - generic [ref=e1981]:
+              - link "무신사 스토어" [ref=e1982] [cursor=pointer]:
+                - /url: https://www.musinsa.com/offline?shopType=selectshop&regions=
+              - link "무신사 스탠다드" [ref=e1983] [cursor=pointer]:
+                - /url: https://www.musinsa.com/offline?shopType=offline&regions=
+              - link "29CM" [ref=e1984] [cursor=pointer]:
+                - /url: https://www.musinsa.com/offline?shopType=29cm&regions=
+              - link "무신사 엠프티" [ref=e1985] [cursor=pointer]:
+                - /url: https://www.musinsa.com/offline?shopType=empty&regions=
+              - link "무신사 스퀘어" [ref=e1986] [cursor=pointer]:
+                - /url: https://www.musinsa.com/offline?shopType=square&regions=
+              - link "무신사 뷰티" [ref=e1987] [cursor=pointer]:
+                - /url: https://www.musinsa.com/offline?shopType=beauty&regions=
+              - link "무신사 테라스" [ref=e1988] [cursor=pointer]:
+                - /url: https://www.musinsa.com/offline?shopType=terrace&regions=
+              - link "아즈니섬" [ref=e1989] [cursor=pointer]:
+                - /url: https://www.musinsa.com/offline?shopType=asnisum&regions=
+          - listitem [ref=e1990]:
+            - generic [ref=e1991]: 비즈니스
+            - generic [ref=e1992]:
+              - link "29CM" [ref=e1993] [cursor=pointer]:
+                - /url: https://www.29cm.co.kr/
+              - link "솔드아웃" [ref=e1994] [cursor=pointer]:
+                - /url: https://www.soldout.co.kr/
+              - link "엠프티" [ref=e1995] [cursor=pointer]:
+                - /url: https://empty.seoul.kr/
+              - link "무신사 파트너스" [ref=e1996] [cursor=pointer]:
+                - /url: https://musinsapartners.co.kr/
+              - link "무신사 스튜디오" [ref=e1997] [cursor=pointer]:
+                - /url: https://musinsastudio.com/
+              - link "무신사 트레이딩" [ref=e1998] [cursor=pointer]:
+                - /url: https://musinsatrading.com/
+              - link "무신사 로지스틱스" [ref=e1999] [cursor=pointer]:
+                - /url: https://musinsalogistics.co.kr/
+          - listitem [ref=e2000]:
+            - generic [ref=e2001]: 파트너 지원
+            - generic [ref=e2002]:
+              - link "입점 문의" [ref=e2003] [cursor=pointer]:
+                - /url: https://partner.musinsa.com/entry/apply
+              - link "광고/제휴 문의" [ref=e2004] [cursor=pointer]:
+                - /url: https://www.musinsa.com/app/company/partner?type=4
+              - link "협찬 문의" [ref=e2005] [cursor=pointer]:
+                - /url: https://www.musinsa.com/app/company/partner?type=2
+              - link "공동/대량 구매 문의" [ref=e2006] [cursor=pointer]:
+                - /url: https://www.musinsa.com/app/company/partner?type=3
+              - link "제조/생산 문의" [ref=e2007] [cursor=pointer]:
+                - /url: https://www.musinsa.com/app/company/partner?type=5
+              - link "이미지/저작권 문의" [ref=e2008] [cursor=pointer]:
+                - /url: https://trust.musinsa.com/receipt
+          - listitem [ref=e2009]:
+            - generic [ref=e2010]: 고객 지원
+            - generic [ref=e2011]:
+              - link "1:1 문의하기" [ref=e2012] [cursor=pointer]:
+                - /url: https://www.musinsa.com/app/cs/counsel
+              - link "FAQ 자주 묻는 질문" [ref=e2013] [cursor=pointer]:
+                - /url: https://www.musinsa.com/app/cs/faq
+              - link "안전 거래 센터" [ref=e2014] [cursor=pointer]:
+                - /url: https://trust.musinsa.com
+              - paragraph [ref=e2015]:
+                - text: "고객센터 1544-7199 운영시간 : 평일 09:00 - 18:00 (점심시간 12:00 - 13:00 제외)"
+                - link "cs@musinsa.com" [ref=e2016] [cursor=pointer]:
+                  - /url: mailto:cs@musinsa.com
+        - generic [ref=e2017]:
+          - paragraph [ref=e2018]: © MUSINSA ALL RIGHTS RESERVED
+          - paragraph [ref=e2019]:
+            - text: "(주) 무신사 | 대표자 : 조만호, 조남성 | 주소 : 서울특별시 성동구 아차산로 13길 11, 1층 (성수동2가, 무신사캠퍼스 엔1) ) | 호스팅사업자 : (주)무신사 | 통신판매업 : 2022-서울성동-01952 | 사업자등록번호 : 211-88-79575("
+            - link "사업자정보확인" [ref=e2020] [cursor=pointer]:
+              - /url: http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2118879575&amp;apv_perm_no=
+            - text: )
+          - paragraph [ref=e2021]:
+            - text: 당사는 고객님이 현금 결제한 금액에 대해 우리은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.
+            - link "서비스 가입사실 확인" [ref=e2022] [cursor=pointer]:
+              - /url: https://image.msscdn.net/static/common/payment_guarantee.html
+          - paragraph [ref=e2023]: 일부 상품의 경우 주식회사 무신사는 통신판매의 당사자가 아닌 통신판매중개자로서 상품, 상품정보, 거래에 대한 책임이 제한될 수 있으므로, 각 상품 페이지에서 구체적인 내용을 확인하시기 바랍니다.
+          - generic [ref=e2024]:
+            - link "개인정보처리방침" [ref=e2025] [cursor=pointer]:
+              - /url: https://www.musinsa.com/member/join/agreement/privacy-policy
+            - generic [ref=e2026]: ·
+            - link "이용약관" [ref=e2027] [cursor=pointer]:
+              - /url: https://www.musinsa.com/member/join/agreement/service
+            - generic [ref=e2028]: ·
+            - link "결제대행 위탁사" [ref=e2029] [cursor=pointer]:
+              - /url: https://www.musinsa.com/order/information/payment-agency
+            - generic [ref=e2030]: ·
+            - link "분쟁해결기준" [ref=e2031] [cursor=pointer]:
+              - /url: https://www.musinsa.com/user/agreement/dispute-resolution
+            - generic [ref=e2032]: ·
+            - link "영상정보처리기기 운영 · 관리방침" [ref=e2033] [cursor=pointer]:
+              - /url: https://www.musinsa.com/member/join/agreement/cctv
+        - generic [ref=e2034]:
+          - generic [ref=e2035]:
+            - link "윤리·준법경영 국제 표준 통합 인증" [ref=e2036] [cursor=pointer]:
+              - /url: https://newsroom.musinsa.com/newsroom-menu/2025-0114
+            - generic [ref=e2037]: ·
+            - link "안전보건경영시스템 국제 인증" [ref=e2038] [cursor=pointer]:
+              - /url: https://newsroom.musinsa.com/newsroom-menu/2025-0620
+          - link "정보보호 관리체계 ISMS 인증" [ref=e2039] [cursor=pointer]:
+            - /url: https://newsroom.musinsa.com/newsroom-menu/2023-0718
+        - generic [ref=e2040]:
+          - link "무신사 인스타그램 바로가기" [ref=e2041] [cursor=pointer]:
+            - /url: https://www.instagram.com/musinsa.official
+            - img [ref=e2042]
+            - generic [ref=e2044]: 무신사 인스타그램 바로가기
+          - link "무신사 유튜브 바로가기" [ref=e2045] [cursor=pointer]:
+            - /url: https://www.youtube.com/musinsatv
+            - img [ref=e2046]
+            - generic [ref=e2048]: 무신사 유튜브 바로가기
+          - link "무신사 트위터 바로가기" [ref=e2049] [cursor=pointer]:
+            - /url: https://twitter.com/musinsaofficial
+            - img [ref=e2050]
+            - generic [ref=e2052]: 무신사 트위터 바로가기
+          - link "무신사 틱톡 바로가기" [ref=e2053] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@musinsa.official
+            - img [ref=e2054]
+            - generic [ref=e2056]: 무신사 틱톡 바로가기
+  - alert [ref=e2057]
